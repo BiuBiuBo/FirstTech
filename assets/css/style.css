@@ -308,6 +308,7 @@ a {
   padding-left: 8px;
   position: relative;
   white-space: nowrap;
+  width: 100%;
 }
 .main-header {
   padding: 28px 0 0 0;
@@ -688,7 +689,8 @@ a {
 }
 .redlight-dropdown .dropdown-content-redlight {
   background: #5b1213;
-  width: 100%;
+  width: fit-content;
+  margin-left: -100px;
 }
 .dropdown-item.active,
 .dropdown-item:active {
