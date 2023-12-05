@@ -1,302 +1,152 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vietnam Open Robotics Challenge 2023</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/images/favicons/FIRSTTech_IconVert_RGB.png"
-    />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="assets/images/favicons/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/mobile.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- HEADER-SECTION -->
-    <div class="home-header-section">
-      <header class="header">
-        <div class="main-header">
-          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light p-0">
-              <a class="navbar-brand pt-0" href="index.html"
-                ><img
-                  width="150"
-                  height="50"
-                  src="./assets/images/redlight-logo.png"
-                  alt=""
-                  class="img-fluid diverge-logo"
-              /></a>
-              <button
-                class="navbar-toggler collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-decoration-none navbar-text-color home-margin-top"
-                      href="index.html"
-                      >Home<span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-decoration-none navbar-text-color"
-                      href="aboutFirst.html"
-                      >Về FIRST</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-decoration-none navbar-text-color"
-                      href="index.html#ruleFirst"
-                      >Luật chơi</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-decoration-none navbar-text-color"
-                      href="awardFirst.html"
-                      >Các giải thưởng</a
-                    >
-                  </li>
-                  <li class="nav-item active">
-                    <a
-                      class="nav-link text-decoration-none navbar-text-color"
-                      href="vorc.html"
-                      >Vietnam Open Robotics Challenge 2023</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-decoration-none navbar-text-color"
-                      href="defaultValue.html"
-                      >Giá trị cốt lõi</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown redlight-dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      >Xem thêm</a
-                    >
-                    <div class="dropdown-menu dropdown-content-redlight">
-                      <ul class="list-unstyled">
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.firstinspires.org/robotics/ftc/"
-                            >FIRST Tech Challenge</a
-                          >
-                        </li>
 
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://ftc-docs.firstinspires.org/en/latest/index.html"
-                            >Tổng hợp tài liệu FTC</a
-                          >
-                        </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vietnam Open Robotics Challenge 2023</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/mobile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
 
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://ftc-docs.firstinspires.org/en/latest/sponsors/discounts/discounts.html"
-                            >Giảm giá dành cho các đội
-                          </a>
-                        </li>
+<body>
+  <!-- HEADER-SECTION -->
+  <div class="home-header-section">
+    <header class="header">
+      <div class="main-header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand pt-0" href="index.html"><img width="150" height="50"
+                src="./assets/images/redlight-logo.png" alt="" class="img-fluid diverge-logo" /></a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color home-margin-top" href="index.html">Home<span
+                      class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="aboutFirst.html">Về FIRST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="index.html#ruleFirst">Luật chơi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="awardFirst.html">Các giải thưởng</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="vorc.html">Vietnam Open Robotics
+                    Challenge 2023</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="defaultValue.html">Giá trị cốt
+                    lõi</a>
+                </li>
+                <li class="nav-item dropdown redlight-dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Xem thêm</a>
+                  <div class="dropdown-menu dropdown-content-redlight">
+                    <ul class="list-unstyled">
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.firstinspires.org/robotics/ftc/">FIRST Tech
+                          Challenge</a>
+                      </li>
 
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.gobilda.com"
-                            >goBILDA</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.andymark.com/pages/first-tech-challenge"
-                            >AndyMark</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.servocity.com"
-                            >Servocity</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.revrobotics.com"
-                            >REV Robotics</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge"
-                            >PITSCO</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.chiefdelphi.com"
-                            >Chief Delphi</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.reddit.com/r/FTC/"
-                            >r/FTC</a
-                          >
-                        </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link"
+                          href="https://ftc-docs.firstinspires.org/en/latest/index.html">Tổng hợp tài liệu FTC</a>
+                      </li>
 
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.firstinspires.org/resource-library?flagged=All&combine=&field_content_type_value%5B%5D=first_tech_challenge&field_resource_library_tags_tid=All&field_resource_library_tags_tid=All&sort_by=created_1"
-                            >Thư viện tài nguyên</a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://www.firstinspires.org/ftc-photos"
-                            >Thư viện hình ảnh
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a
-                            class="dropdown-item nav-link"
-                            href="https://firsttechchallenge.blogspot.com/"
-                            >Blog FIRST®
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="dropdown-item nav-link" href=""
-                            >Cựu thí sinh
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link"
+                          href="https://ftc-docs.firstinspires.org/en/latest/sponsors/discounts/discounts.html">Giảm giá
+                          dành cho các đội
+                        </a>
+                      </li>
 
-                  <!-- <li class="nav-item dropdown redlight-dropdown">
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.gobilda.com">goBILDA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link"
+                          href="https://www.andymark.com/pages/first-tech-challenge">AndyMark</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.servocity.com">Servocity</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.revrobotics.com">REV Robotics</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link"
+                          href="https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge">PITSCO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.chiefdelphi.com">Chief Delphi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.reddit.com/r/FTC/">r/FTC</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link"
+                          href="https://www.firstinspires.org/resource-library?flagged=All&combine=&field_content_type_value%5B%5D=first_tech_challenge&field_resource_library_tags_tid=All&field_resource_library_tags_tid=All&sort_by=created_1">Thư
+                          viện tài nguyên</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://www.firstinspires.org/ftc-photos">Thư viện hình
+                          ảnh
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="https://firsttechchallenge.blogspot.com/">Blog FIRST®
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item nav-link" href="">Cựu thí sinh
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- <li class="nav-item dropdown redlight-dropdown">
                     <a
                       class="nav-link dropdown-toggle"
                       href="#"
@@ -384,8 +234,8 @@
                       >Pricing</a
                     >
                   </li> -->
-                </ul>
-                <!-- <div class="btn-talk ml-auto">
+              </ul>
+              <!-- <div class="btn-talk ml-auto">
                   <ul class="m-0 p-0">
                     <li class="list-unstyled d-lg-inline-block">
                       <a class="nav-link contact" href="contact.html"
@@ -394,47 +244,36 @@
                     </li>
                   </ul>
                 </div> -->
-              </div>
-            </nav>
-          </div>
+            </div>
+          </nav>
         </div>
-      </header>
-      <!-- BANNER-SECTION -->
-      <div class="home-banner-section overflow-hidden">
-        <div class="banner-container-box" style="height: 750px">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-6 col-md-6 col-sm-12 mb-md-0 mb-4 text-md-left text-center"
-              >
-                <div class="home-banner-text" data-aos="fade-up">
-                  <!-- <h5 class="text-white artificial-text">
+      </div>
+    </header>
+    <!-- BANNER-SECTION -->
+    <div class="home-banner-section overflow-hidden">
+      <div class="banner-container-box" style="height: 750px">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-md-0 mb-4 text-md-left text-center">
+              <div class="home-banner-text" data-aos="fade-up">
+                <!-- <h5 class="text-white artificial-text">
                     Cyber Security Solutions for
                   </h5> -->
-                  <h1 class="text-white">
-                    Vietnam Open Robotics Challenge 2023
-                  </h1>
-                  <p class="text-white banner-paragraph">
-                    Tham gia kênh Discord của FIRST Tech Challenge Vietnam
-                    <a
-                      style="color: #ff8100"
-                      href="https://discord.gg/SXb3kyzu"
-                    >
-                      tại đây
-                    </a>
-                  </p>
-                  <div class="banner-btn discover-btn-banner">
-                    <a
-                      href="https://forms.gle/t7gFjaymrWaUxg4j7"
-                      class="text-decoration-none"
-                      >Đăng kí ngay</a
-                    >
-                    <a href="" class="text-decoration-none play-button"
-                      ><i class="fa-solid fa-play"></i
-                    ></a>
-                  </div>
+                <h1 class="text-white">
+                  Vietnam Open Robotics Challenge 2023
+                </h1>
+                <p class="text-white banner-paragraph">
+                  Tham gia kênh Discord của FIRST Tech Challenge Vietnam
+                  <a style="color: #ff8100" href="https://discord.gg/SXb3kyzu">
+                    tại đây
+                  </a>
+                </p>
+                <div class="banner-btn discover-btn-banner">
+                  <a href="https://forms.gle/t7gFjaymrWaUxg4j7" class="text-decoration-none">Đăng kí ngay</a>
+                  <a href="" class="text-decoration-none play-button"><i class="fa-solid fa-play"></i></a>
                 </div>
-                <!-- <div class="social-icons" data-aos="zoom-out-left">
+              </div>
+              <!-- <div class="social-icons" data-aos="zoom-out-left">
                   <ul class="list-unstyled">
                     <li>
                       <a class="text-decoration-none" href="#"
@@ -463,27 +302,17 @@
                     </li>
                   </ul>
                 </div> -->
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <div
-                  class="banner-img-content position-relative"
-                  data-aos="fade-up"
-                >
-                  <figure
-                    class="banner-img mb-0 wow slideInRight"
-                    data-wow-duration="2s"
-                  >
-                    <img
-                      class="img-fluid banner-img-width"
-                      src="assets/images/520x427-2-home.png"
-                      alt=""
-                    />
-                  </figure>
-                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="banner-img-content position-relative" data-aos="fade-up">
+                <figure class="banner-img mb-0 wow slideInRight" data-wow-duration="2s">
+                  <img class="img-fluid banner-img-width" src="assets/images/520x427-2-home.png" alt="" />
+                </figure>
               </div>
             </div>
-            <!-- CARDS-SECTION -->
-            <!-- <div class="cards-section overflow-hidden">
+          </div>
+          <!-- CARDS-SECTION -->
+          <!-- <div class="cards-section overflow-hidden">
               <div class="container">
                 <div class="row">
                   <div
@@ -529,79 +358,69 @@
                 </div>
               </div>
             </div> -->
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <section
-      class="cyber-security-section cyber-security-section2 overflow-hidden"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="cyber-content" data-aos="fade-up-left">
-              <h3>
-                <span class="cyber-text"
-                  >Vietnam Open Robotics Challenge 2023 </span
-                >(VORC 2023) là gì?
-              </h3>
-              <p class="security-services-p">
-                <span style="font-weight: 900; color: white">
-                  Vietnam Open Robotics Challenge 2023 (VORC 2023)</span
-                >
-                là chương trình đào tạo, thực hành và thi đấu về robotics miễn
-                phí dành cho học sinh THPT trên cả nước nhằm chia sẻ kiến thức
-                công nghệ, tạo cơ hội cho các bạn trẻ tiếp xúc với các nền tảng
-                thiết kế và phát triển ý tưởng về robotics, đồng thời nâng cao
-                kỹ năng, năng lực của bản thân.<br />
-                <br />
-                <span style="font-weight: 900; color: white">
-                  Vietnam Open Robotics Challenge 2023</span
-                >
-                sẽ được tổ chức với 2 vòng: vòng Đào tạo trực tuyến và vòng Thử
-                thách online trên toàn quốc hoặc online kết hợp offline tại hai
-                điểm cầu Cần Thơ và Đà Nẵng.
-                <br />
-                <br />
-                - Nếu bạn quan tâm đến vai trò Mentor/Cố vấn, vui lòng tham gia
-                nhóm Zalo
-                <a style="color: #ff8100" href=" https://zalo.me/g/fdsigg152"
-                  >tại đây</a
-                >
-                - Hãy tham gia nhóm
+  <section class="cyber-security-section cyber-security-section2 overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="cyber-content" data-aos="fade-up-left">
+            <h3>
+              <span class="cyber-text">Vietnam Open Robotics Challenge 2023 </span>(VORC 2023) là gì?
+            </h3>
+            <p class="security-services-p">
+              <span style="font-weight: 900; color: white">
+                Vietnam Open Robotics Challenge 2023 (VORC 2023)</span>
+              là chương trình đào tạo, thực hành và thi đấu về robotics miễn
+              phí dành cho học sinh THPT trên cả nước nhằm chia sẻ kiến thức
+              công nghệ, tạo cơ hội cho các bạn trẻ tiếp xúc với các nền tảng
+              thiết kế và phát triển ý tưởng về robotics, đồng thời nâng cao
+              kỹ năng, năng lực của bản thân.<br />
+              <br />
+              <span style="font-weight: 900; color: white">
+                Vietnam Open Robotics Challenge 2023</span>
+              sẽ được tổ chức với 2 vòng: vòng Đào tạo trực tuyến và vòng Thử
+              thách online trên toàn quốc hoặc online kết hợp offline tại hai
+              điểm cầu Cần Thơ và Đà Nẵng.
+              <br />
+              <br />
+              - Nếu bạn quan tâm đến vai trò Mentor/Cố vấn, vui lòng tham gia
+              nhóm Zalo
+              <a style="color: #ff8100" href=" https://zalo.me/g/fdsigg152">tại đây</a>
+              - Hãy tham gia nhóm
 
-                <a style="color: #ff8100" href=" https://zalo.me/g/fdsigg152"
-                  >Discord</a
-                >
-                để nhận tài liệu và thông tin về VORC:
-              </p>
+              <a style="color: #ff8100" href="https://discord.gg/9D5UzttCDT?fbclid=IwAR3NFEudnDYaShAHugial44WSH5LNGKirgjRRxdH9xVWVX7tbQP7rT58Srk">Discord</a>
+              để nhận tài liệu và thông tin về VORC:
+            </p>
 
-              <!-- <p class="security-services-p cyber-p-margin-bottom">
+            <!-- <p class="security-services-p cyber-p-margin-bottom">
                 Vamus elementum semper nisi aenean vulputate eleife nd tellus
                 onsec tet ueradip.
               </p> -->
-              <!-- <div class="cyber-contact-btn">
+            <!-- <div class="cyber-contact-btn">
                 <a href="contact.html" class="text-decoration-none"
                   >Contact Us</a
                 >
               </div> -->
-            </div>
           </div>
-          <div class="col-lg-5 col-md-5 col-sm-12 text-md-right text-center">
-            <div class="cyber-content-img-right" data-aos="fade-up-right">
-              <figure class="mb-0">
-                <img src="./assets/images/585x660-1-vorc.png" alt="" class="" />
-              </figure>
-            </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 text-md-right text-center">
+          <div class="cyber-content-img-right" data-aos="fade-up-right">
+            <figure class="mb-0">
+              <img src="./assets/images/585x660-1-vorc.png" alt="" class="" />
+            </figure>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ABOUT-US_SECTION -->
-    <!-- Lỗi ở đây -->
-    <section class="about-us-section-start">
+  <!-- ABOUT-US_SECTION -->
+  <!-- Lỗi ở đây -->
+  <section class="about-us-section-start">
     <!-- <div
         class="about-right-icon position-relative"
         data-aos="fade-right"
@@ -620,11 +439,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12" style="margin-top: 50px">
-          <h3
-            class="text-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-          >
+          <h3 class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             ĐỐI TƯỢNG THAM GIA
           </h3>
           <p class="text-center" style="line-height: 2">
@@ -651,10 +466,7 @@
     </div>
 
     <!-- CYBER-SECURITY-SOLUTION -->
-    <section
-      class="cyber-security-section cyber-security-section2 overflow-hidden"
-      style="margin-bottom: 100px"
-    >
+    <section class="cyber-security-section cyber-security-section2 overflow-hidden" style="margin-bottom: 100px">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -743,10 +555,8 @@
                 <br />
                 <br />
                 Theo dõi chi tiết thể lệ và nội dung chương trình VORC 2023
-                <a
-                  style="color: #ff8100"
-                  href="https://docs.google.com/document/d/1DRGLCHaiUXJ3QLgjzYzDX9lbc2rMYnNIuAUF_MxEtD8/edit?usp=sharing"
-                >
+                <a style="color: #ff8100"
+                  href="https://docs.google.com/document/d/1DRGLCHaiUXJ3QLgjzYzDX9lbc2rMYnNIuAUF_MxEtD8/edit?usp=sharing">
                   tại đây
                 </a>
               </p>
@@ -766,12 +576,8 @@
     <div class="container" style="margin-top: 100px">
       <div class="row">
         <div class="col-12">
-          <h3
-            class="text-center"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            style="text-transform: uppercase"
-          >
+          <h3 class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            style="text-transform: uppercase">
             Các mốc thời gian của chuỗi cuộc thi
           </h3>
           <!-- <p class="text-center">
@@ -792,15 +598,12 @@
       </div>
     </div>
 
-    <section
-      class=""
-      style="
+    <section class="" style="
         background: #202020;
         padding: 10px;
         display: flex;
         justify-content: center;
-      "
-    >
+      ">
       <div class="container2">
         <ul>
           <li>
@@ -823,11 +626,9 @@
             <h3 class="title">
               Phát hành tài liệu học robotics online cho cộng đồng các trường.
               Truy cập Sổ tay đào tạo chương trình VORC 2023
-              <a
-                style="color: #ff8100"
-                href="https://docs.google.com/document/d/1ILH8tFKN8YwnJllCRwzV8tIBfK2drb7J__V0tFxIbc4/edit?usp=sharing"
-                >tại đây</a
-              >
+              <a style="color: #ff8100"
+                href="https://docs.google.com/document/d/1ILH8tFKN8YwnJllCRwzV8tIBfK2drb7J__V0tFxIbc4/edit?usp=sharing">tại
+                đây</a>
               để theo dõi lộ trình đào tạo và hướng dẫn truy cập tài liệu đào
               tạo.
             </h3>
@@ -882,11 +683,7 @@
           <div class="col-lg-5 col-md-5 col-sm-12">
             <div class="cyber-content-img" data-aos="fade-up-left">
               <figure class="mb-0">
-                <img
-                  src="./assets/images/585x660-3-vorc.png"
-                  alt=""
-                  class="cyber-security-provider-img"
-                />
+                <img src="./assets/images/585x660-3-vorc.png" alt="" class="cyber-security-provider-img" />
               </figure>
             </div>
           </div>
@@ -901,12 +698,8 @@
                 Đội tham dự Vietnam Open Robotics Challenge phải hoàn thành đơn
                 đăng ký tham gia theo đường link
 
-                <a
-                  style="color: #ff8100"
-                  href="https://forms.gle/t7gFjaymrWaUxg4j7"
-                >
-                  tại đây</a
-                >
+                <a style="color: #ff8100" href="https://forms.gle/t7gFjaymrWaUxg4j7">
+                  tại đây</a>
                 trước ngày 30/11/2023. Cụ thể trong form đăng kí, các đội cần
                 gửi danh sách các thành viên chính thức của đội kèm logo, ảnh
                 thành viên, đoạn văn giới thiệu các thành viên trước ngày
@@ -959,19 +752,12 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="footer-content1" data-aos="flip-left">
                 <figure>
-                  <a href="index.html"
-                    ><img
-                      src="./assets/images/redlight-logo.png"
-                      width="200px"
-                      alt=""
-                      class="img-fluid"
-                  /></a>
+                  <a href="index.html"><img src="./assets/images/redlight-logo.png" width="200px" alt=""
+                      class="img-fluid" /></a>
                 </figure>
               </div>
             </div>
-            <div
-              class="col-xl-1 col-lg-1 col-md-1 col-sm-1 d-xl-block d-none"
-            ></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 d-xl-block d-none"></div>
             <div class="col-xl-2 col-lg-3 col-md-2 col-sm-12 d-lg-block d-none">
               <ul class="list-unstyled services-footer" data-aos="flip-left">
                 <li class="list-item footer-margin-left">
@@ -979,37 +765,25 @@
                 </li>
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="aboutFirst.html"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="aboutFirst.html" class="text-decoration-none footer-link-p">
                     Về FIRST
                   </a>
                 </li>
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="index.html#aboutFirst"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="index.html#aboutFirst" class="text-decoration-none footer-link-p">
                     Về FIRST Tech Challenge Vietnam
                   </a>
                 </li>
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="index.html#ruleFirst"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="index.html#ruleFirst" class="text-decoration-none footer-link-p">
                     Luật chơi
                   </a>
                 </li>
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="index.html#timelineFirst"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="index.html#timelineFirst" class="text-decoration-none footer-link-p">
                     Lịch trình
                   </a>
                 </li>
@@ -1022,39 +796,27 @@
                 </li>
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="index.html#register"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="index.html#register" class="text-decoration-none footer-link-p">
                     Đăng ký
                   </a>
                 </li>
 
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="index.html#faq"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="index.html#faq" class="text-decoration-none footer-link-p">
                     FAQ
                   </a>
                 </li>
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="vorc.html"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="vorc.html" class="text-decoration-none footer-link-p">
                     Vietnam Open Robotics Challenge
                   </a>
                 </li>
 
                 <li>
                   <i class="fa-solid fa-caret-right"></i>
-                  <a
-                    href="https://www.firstinspires.org/robotics/ftc/"
-                    class="text-decoration-none footer-link-p"
-                  >
+                  <a href="https://www.firstinspires.org/robotics/ftc/" class="text-decoration-none footer-link-p">
                     Trang chính thức của FIRST Tech Challenge
                   </a>
                 </li>
@@ -1067,42 +829,27 @@
                     <li class="list-item">
                       <h5 class="footer-link footer-get-heading">Thông tin</h5>
                     </li>
-                    <li
-                      class="list-item position-reletive addres-list icon-list1"
-                    >
+                    <li class="list-item position-reletive addres-list icon-list1">
                       <div class="number">
-                        <a
-                          href="mailto:webmaster@example.com"
-                          class="text-decoration-none footer-link-p ml-0"
-                          ><span class="footer-additional">Email: </span>
-                          robotics@fe.edu.vn</a
-                        >
+                        <a href="mailto:webmaster@example.com" class="text-decoration-none footer-link-p ml-0"><span
+                            class="footer-additional">Email: </span>
+                          robotics@fe.edu.vn</a>
                       </div>
                     </li>
-                    <li
-                      class="list-item position-reletive addres-list icon-list1"
-                    >
+                    <li class="list-item position-reletive addres-list icon-list1">
                       <div class="contact-number">
-                        <a
-                          href="tel:+4733378901"
-                          class="text-decoration-none footer-link-p ml-0"
-                          ><span class="footer-additional">Phone: </span>024
-                          6680 5915</a
-                        >
+                        <a href="tel:+4733378901" class="text-decoration-none footer-link-p ml-0"><span
+                            class="footer-additional">Phone: </span>024
+                          6680 5915</a>
                       </div>
                     </li>
 
-                    <li
-                      class="list-item position-reletive addres-list icon-list1"
-                    >
+                    <li class="list-item position-reletive addres-list icon-list1">
                       <div class="contact-address">
-                        <a
-                          href="#"
-                          class="text-decoration-none footer-link-p ml-0"
-                          ><span class="footer-additional">Address: </span>Khu
+                        <a href="#" class="text-decoration-none footer-link-p ml-0"><span
+                            class="footer-additional">Address: </span>Khu
                           GD&ĐT, CNC Hòa Lạc, Km29, Đại lộ Thăng Long, Thạch
-                          Thất , Hà Nội, Việt Nam</a
-                        >
+                          Thất , Hà Nội, Việt Nam</a>
                       </div>
                     </li>
                   </ul>
@@ -1134,5 +881,6 @@
     <script src="assets/js/owl.carousel.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/text-animations.js"></script>
-  </body>
+</body>
+
 </html>
