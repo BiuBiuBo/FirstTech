@@ -57,6 +57,7 @@ html {
 
 .container2 {
   width: 70%;
+  min-width: 300px;
   height: auto;
   position: relative;
 }
