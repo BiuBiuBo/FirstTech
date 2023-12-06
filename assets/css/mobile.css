@@ -308,7 +308,7 @@
     width: 600px;
     height: 710px;
   }
-
+  
   .about-us-banner-section .home-banner-text {
     padding: 34px 31px 50px 179px;
   }
@@ -328,12 +328,14 @@
   .footer-section .footer-icon {
     display: none;
   }
+
   .Services-Security-Option-services-page .whyus-icon {
    display: none;
-}
-.clients-testimonial-page .about-right-icon figure {
-  display: none;
-}
+  }
+
+  .clients-testimonial-page .about-right-icon figure {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1250px) {
@@ -782,7 +784,7 @@
   .navbar-collapse {
     position: absolute;
     right: 0px;
-    width: 27%;
+    width: fit-content;
     top: 50px;
     z-index: 16;
     padding: 0;
