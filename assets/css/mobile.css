@@ -784,7 +784,7 @@
   .navbar-collapse {
     position: absolute;
     right: 0px;
-    width: fit-content;
+    width: 100%;
     top: 50px;
     z-index: 16;
     padding: 0;
@@ -2127,10 +2127,6 @@
     display: none;
   }
 
-  .navbar-collapse {
-    width: 32% !important;
-  }
-
   .blog-posts {
     padding: 60px 0 0;
   }
@@ -2657,10 +2653,6 @@
   .dropdown-content-redlight ul li {
     margin-left: 0px !important;
     display: block;
-  }
-
-  .navbar-collapse {
-    width: 50% !important;
   }
 
   .padding-bottom {
