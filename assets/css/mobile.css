@@ -791,6 +791,7 @@
     background: var(--e-global-color-dark-marron);
     border-radius: 0px;
     color: var(--e-global-color-white-banner-text);
+    border: 1px solid var(--e-global-color-red-active);
   }
 
   .navbar-collapse a {
