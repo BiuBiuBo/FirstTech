@@ -798,6 +798,12 @@
     line-height: 16px;
     padding: 10px 20px !important;
   }
+  
+  .dropdown-menu {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0;
+  }
 
   .navbar-nav .active>a {
     background: var(--e-global-color-red-active) !important;
