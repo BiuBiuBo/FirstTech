@@ -154,7 +154,7 @@ html {
   line-height: 23px;
 }
 
-ul li .date {
+.container2 ul li .date {
   position: absolute;
   top: -30px;
   padding: 0 15px;
@@ -164,8 +164,8 @@ ul li .date {
   color: #fff;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.062) 0%,
-    rgba(255, 255, 255, 0) 73.86%
+    rgba(255, 255, 255, 0.062) 80%,
+    rgba(45, 45, 45, 90) 20%
   );
   display: grid;
   place-items: center;
