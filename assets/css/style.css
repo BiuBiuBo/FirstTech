@@ -618,7 +618,6 @@ a {
   font-weight: 400;
   line-height: 30px;
   word-spacing: 0px;
-  margin-bottom: 41px;
 }
 .banner-btn a {
   color: var(--e-global-color-white) !important;
@@ -637,17 +636,17 @@ a {
 }
 .discover-btn-banner .play-button {
   padding: 19px 25px;
-  margin-left: 8px;
   background: transparent !important;
   border: 2px solid var(--e-global-color-white);
+  transition: 0.3s;
 }
+
 .discover-btn-banner a:hover {
   background-image: linear-gradient(
     90deg,
     var(--e-global-background-services-box) 15%,
     var(--e-global-background-services-box-color2) 94%
   ) !important;
-  transition: 0.3s transform ease-in-out;
   color: var(--e-global-color-white) !important;
 }
 
