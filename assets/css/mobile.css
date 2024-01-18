@@ -349,8 +349,7 @@
   }
 
   .navbar-nav li {
-    display: inline-block;
-    margin: 0 11px;
+    display: block;
   }
 
   .navbar-nav a {
@@ -760,10 +759,6 @@
     padding: 15px 33px 15px 32px;
   }
 
-  .navbar-nav li:first-child {
-    margin-left: 92px;
-  }
-
   .clients-section .about2-left-img {
     display: none;
   }
@@ -781,6 +776,10 @@
     border-radius: 0px;
     color: var(--e-global-color-white-banner-text);
     border: 1px solid var(--e-global-color-red-active);
+  }
+
+  .redlight-dropdown .dropdown-content-redlight {
+    width: 100%;
   }
 
   .navbar-collapse a {
@@ -888,7 +887,7 @@
   .navbar-collapse ul {
     align-items: unset;
     text-align: unset;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 
   button:focus {
