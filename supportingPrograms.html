@@ -42,12 +42,11 @@
 <body>
   <!-- HEADER-SECTION -->
   <div class="home-header-section">
-    <header class="header">
+    <header class="header py-3" style="position: fixed; top: 0; left: 0; z-index: 9999; transition: 0.5s; width: 100vw;" id="header">
       <div class="main-header">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light p-0">
-            <a class="navbar-brand pt-0" href="index.html"><img width="150" height="50"
-                src="./assets/images/redlight-logo.png" alt="" class="img-fluid diverge-logo" /></a>
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="index.html"><img width="150" height="50" src="./assets/images/redlight-logo.png" alt="" class="img-fluid diverge-logo" /></a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
@@ -141,8 +140,8 @@
     </header>
 
     <!-- HEADER-SECTION -->
-    <section class="about-us-section-start about-us-section-2 overflow-hidden" style="background: none; min-height: 700px;">
-      <div class="container" style="margin-top: 50px;">
+    <section class="about-us-section-start about-us-section-2 overflow-hidden" style="background: none; min-height: 100vh;">
+      <div class="container" style="margin-top: 90px;">
         <div class="row my-auto">
           <div class="col-12">
             <h3 class="text-center" style="line-height: normal;" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Supporting Programs
@@ -154,7 +153,9 @@
               <a href="supportingPrograms.html/advisor-link" class="text-decoration-none play-button mx-3 my-2">AdvisorLink Program</a>
               <a href="supportingPrograms.html/ftcvn-bootcamp" class="text-decoration-none play-button mx-3 my-2">FTC VN Bootcamp</a>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/yvF5i_7QOSg?si=5Q12R63wCQGzXQNC&amp;start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="mx-auto d-block"></iframe>
+            <div class="mb-5 py-3">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/yvF5i_7QOSg?si=5Q12R63wCQGzXQNC&amp;start=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="mx-auto d-block"></iframe>
+            </div>
           </div>
         </div>
       </div>

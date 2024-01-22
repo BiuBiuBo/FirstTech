@@ -68,10 +68,6 @@
 }
 
 @media screen and (max-width: 1750px) {
-  .main-header {
-    padding: 28px 230px 0 230px;
-  }
-
   .about-us-banner-section .home-banner-text {
     padding: 76px 118px 60px 302px;
   }
@@ -93,9 +89,6 @@
 }
 
 @media screen and (max-width: 1650px) {
-  .main-header {
-    padding: 28px 150px 0 150px;
-  }
 
   .about-us-banner-section .home-banner-text {
     padding: 75px 73px 35px 289px;
@@ -119,10 +112,6 @@
 }
 
 @media screen and (max-width: 1550px) {
-  .main-header {
-    padding: 28px 120px 0 120px;
-  }
-
   .about-us-banner-section .home-banner-text {
     padding: 40px 56px 35px 215px;
   }
@@ -161,10 +150,6 @@
 
   .banner-container-box .blogs-section-padding {
     padding: 32px 0px 39px 77px;
-  }
-
-  .main-header {
-    padding: 17px 0px 0 0px;
   }
 
   .home-banner-text {
@@ -764,12 +749,12 @@
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .navbar-collapse {
     position: absolute;
     right: 0px;
     width: 100%;
-    top: 55px;
+    top: 71px;
     z-index: 16;
     padding: 0;
     background: var(--e-global-color-dark-marron);
@@ -1715,10 +1700,6 @@
 
   .banner-img-content {
     padding: 0px 10px 0 10px;
-  }
-
-  .main-header {
-    padding: 20px 0px 0 0px;
   }
 
   .services-section {
