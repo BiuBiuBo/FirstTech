@@ -81,7 +81,7 @@ html {
 .container2 ul li {
   width: 50%;
   height: auto;
-  padding: 15px 20px;
+  padding: 10px 20px;
   /* background-color: var(--e-global-color-white);
   box-shadow: 1px 1px 25px var(--e-global-color-btn-red);
   border-radius: 10px; */
@@ -140,12 +140,14 @@ html {
   text-align: left;
 }
 
-.container2 ul li:nth-child(8) {
+.container2 ul li:nth-last-child() {
   margin-bottom: 0;
 }
 
 .container2 ul li .title {
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .ul li p {
