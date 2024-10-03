@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vietnam Open Robotics Challenge 2024</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/images/favicons/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/mobile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- HEADER-SECTION -->
+  <div class="home-header-section">
+    <header class="header py-3" style="position: fixed; top: 0; left: 0; z-index: 9999; transition: 0.5s; width: 100vw;" id="header">
+      <div class="main-header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="/en"><img width="150" height="50" src="/assets/images/redlight-logo.png" alt="" class="img-fluid diverge-logo" /></a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item" style="margin-left: 115px;">
+                  <a class="nav-link text-decoration-none navbar-text-color home-margin-top" href="/en">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="/en/aboutFirst">About <span style="font-weight: 900 !important; font-style: italic;">FIRST®</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="/en/defaultValue">Core Values</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="/en/awardFirst">Awards</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="/en/resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none navbar-text-color" href="/en/vorc-cantho">VORC Can Tho</a>
+                </li>
+                <li class="nav-item dropdown redlight-dropdown">
+                  <a class="nav-link dropdown-toggle navbar-text-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                  <ul class="list-unstyled dropdown-menu dropdown-content-redlight">
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.firstinspires.org/robotics/ftc/">FIRST Tech Challenge</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://ftc-docs.firstinspires.org/en/latest/index.html">FTC Documents</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://ftc-docs.firstinspires.org/en/latest/sponsors/discounts/discounts.html">Team discount</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="supportingPrograms.html">Supporting programs</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.gobilda.com">goBILDA</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.andymark.com/pages/first-tech-challenge">AndyMark</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.servocity.com">Servocity</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.revrobotics.com">REV Robotics</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge">PITSCO</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.chiefdelphi.com">Chief Delphi</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.reddit.com/r/FTC/">r/FTC</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.firstinspires.org/resource-library?flagged=All&combine=&field_content_type_value%5B%5D=first_tech_challenge&field_resource_library_tags_tid=All&field_resource_library_tags_tid=All&sort_by=created_1">Thư
+                        viện tài nguyên</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://www.firstinspires.org/ftc-photos">Media</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="https://firsttechchallenge.blogspot.com/">Blog FIRST®</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item" href="/en/volunteer">FTC VN Volunteer</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- BANNER-SECTION -->
+    <div class="home-banner-section overflow-hidden">
+      <div class="banner-container-box" style="height: 750px">
+        <div class="container mt-5 pt-5">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-md-0 mb-4 text-md-left text-center">
+              <div class="home-banner-text" data-aos="fade-up">
+                <!-- <h5 class="text-white artificial-text">
+                    Cyber Security Solutions for
+                  </h5> -->
+                <h1 class="text-white">
+                  Vietnam Open Robotics Challenge 2024
+                </h1>
+                <p class="text-white banner-paragraph">
+                  Join Vietnam Open Robotics Challenge Discord server
+                  <a style="color: #ff8100" href="https://discord.gg/dhmg7DdWFY">
+                    here
+                  </a>
+                </p>
+                <div class="banner-btn discover-btn-banner">
+                  <a href="https://forms.gle/Wdd35W7gphRVxG1A8" class="text-decoration-none">Sign up now</a>
+                  <a href="https://docs.google.com/document/d/1EoN1P4fv5H5xb_CG0ziKRi54O6Ogkcy8huB9CJHKfWA/edit?usp=sharing" class="text-decoration-none play-button mt-3">Event summary</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="banner-img-content position-relative" data-aos="fade-up">
+                <figure class="banner-img mb-0 wow slideInRight" data-wow-duration="2s">
+                  <img class="img-fluid banner-img-width w-100 rounded-lg" src="/assets/images/banner-visual.png" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="cyber-security-section cyber-security-section2 overflow-hidden" style="padding-top: 70px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="cyber-content" data-aos="fade-up-left">
+            <h3>
+              What is
+              <span class="cyber-text">Vietnam Open Robotics Challenge 2024 </span>?
+            </h3>
+            <p class="security-services-p text-justify">
+              <span style="font-weight: 900; color: white">
+                Vietnam Open Robotics Challenge 2024 (VORC 2024)
+              </span>
+              has returned with the topic <span style="font-weight: 700; color: white">“Reviving water sources”.
+              </span>
+              <br />
+              <br />
+              <span style="font-weight: 900; color: white">Vietnam Open Robotics Challenge 2024</span>
+              VORC is a free training, practice, and competition program on robotics for high school students nationwide with 
+              the aim of sharing knowledge, creating opportunities for young people to access design platforms and develop robotics ideas,
+              enhancing their skills and capabilities, while encouraging learning, creativity, and social concern of Vietnamese students.
+              <br />
+              <br />
+              Notably, The top 8 teams will receive a kit to participate in FIRST Tech Challenge Vietnam in Hà Nội in February 2025.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 d-lg-block d-none align-content-center">
+          <div class="cyber-content-img-right" data-aos="fade-up-right">
+            <figure class="mb-0">
+              <img src="/assets/images/vorc_visual-1.png" alt="" class="img-fluid w-100" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT-US_SECTION -->
+  <section class="about-us-section-start pt-lg-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <h3 class="text-center">
+           Who can join?
+          </h3>
+          <ul>
+            <li style="color: #999999">
+              <p class="m-1 p-0">
+                Students from high schools across the country. Team members must be high school students at the time the
+                program is held (from July 1, 2024) and that member must be on the list of members confirmed by the school.
+                For 10th grade students in the 24-25 school year, these members can still participate but must be on the
+                list confirmed by the school.
+              </p>
+            </li>
+            <li style="color: #999999">
+              <p class="m-1 p-0">
+                Each high school can have from 01 to 03 teams representing the school to participate in the program.
+              </p>
+            </li>
+            <li style="color: #999999">
+              <p class="m-1 p-0">
+                Each team must have at least 01 mentor to support the team in terms of expertise and procedures.</p>
+              </p>
+            </li>
+            <li style="color: #999999">
+              <p class="m-1 p-0">
+                Each team must have at least 3 members and a maximum of 15 members (each team should have members working in
+                both technical and communication, finance, and external affairs).</p>
+              </p>
+            </li>
+          </ul>
+          <p class="m-1 p-0">
+            After successful registration, teams will receive their team code, this code will represent the team and be used
+            throughout the program.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CYBER-SECURITY-SOLUTION -->
+    <section class="cyber-security-section cyber-security-section2 overflow-hidden mt-lg-0 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="cyber-content" data-aos="fade-up-left">
+              <h3>
+                VORC 2024
+                <span class="cyber-text text-center">Rules </span>
+              </h3>
+              <p class="mb-3 p-0 text-justify">
+                Vietnam Open Robotics Challenge 2024 will be held in 2 rounds: Online training round and Challenge round.
+              </p>
+              <p class="mb-3 p-0 text-justify">
+                <span class="font-weight-bold" style="color: #ff8100">
+                  Online training round:
+                </span>
+                <br />
+                Teams will participate in training programs on mechanical design, programming, and electronics. In addition,
+                teams also have the opportunity to access and learn more about topics such as communication, team management,
+                and interviews with the judges. At the end of the training process, teams submit their result to the organizers
+                for evaluation.
+                <br />
+                Detail of the Online training round can be found
+                <a style="color: #ff8100" href="https://docs.google.com/document/d/1EoN1P4fv5H5xb_CG0ziKRi54O6Ogkcy8huB9CJHKfWA/edit#heading=h.e4jx4fhb4wk0">
+                  here
+                </a>
+              </p>
+              <p class="mb-3 p-0 text-justify">
+                <span class="font-weight-bold" style="color: #ff8100">
+                  Challenge round:
+                </span>
+                <br />
+                In the Challenge round, teams will prepare technical documents, perform communication challenges, and participate in interviews with the judges. The Challenge round topic will be announced by the organizers on July 29, 2024.
+              </p>
+              <p class="mb-3 p-0 text-left">
+                Details of the rules and content of VORC 2024 can be found
+                <a style="color: #ff8100" href="https://docs.google.com/document/d/1EoN1P4fv5H5xb_CG0ziKRi54O6Ogkcy8huB9CJHKfWA/edit?usp=sharing">
+                  here
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 d-lg-block d-none align-content-center">
+            <div class="cyber-content-img-right" data-aos="fade-up-right">
+              <figure class="mb-0">
+                <img src="/assets/images/vorc_visual-2.png" alt="" class="img-fluid w-100" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h3 class="text-center text-white pt-lg-5 pt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="text-transform: uppercase"> Important timeline
+    </h3>
+    <section class="pt-5" style=" background: #202020; padding: 10px; display: flex; justify-content: center;">
+      <div class="container2">
+        <ul>
+          <li>
+            <h3 class="title text-justify mb-0">
+              Kick off <span class="font-weight-bold" style="color: #ff8100;">Vietnam Open Robotics Challenge 2024</span>.
+              Start receiving registration profiles for VORC 2024.
+              <br /> 
+              Team receives official technical reference and challenge documents.
+            </h3>
+            <span class="circle"></span>
+            <span class="date" style="color: #ffffff">12.06.2024</span>
+          </li>
+          <li>
+            <h3 class="title text-justify mb-0">
+              Deadline for registration for VORC 2024.
+            </h3>
+            <span class="circle"></span>
+            <span class="date" style="color: #ffffff">30.06.2024</span>
+          </li>
+          <li>
+            <h3 class="title text-justify mb-0">
+              <span class="font-weight-bold" style="color: #ff8100;">VORC Bootcamp Online:</span> 
+              Online Bootcamp training on robotics to follow the training schedule and guide access to training materials.
+            </h3>
+            <span class="circle"></span>
+            <span class="date">06 - 07.07.2024</span>
+          </li>
+          <li>
+            <h3 class="title text-justify mb-0">
+              Webniar sharing experience of Robotics & STEAM clubs in the Vietnam STEAM Union community.
+            </h3>
+            <span class="circle"></span>
+            <span class="date">13 - 14.07, 20 - 21.07.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              Teams prepare products for the online training round.
+              <br />
+              Time to submit products for the online training round<span class="font-weight-bold" style="color: #ff8100;">(27.07.2024)</span>
+            </h3>
+            <span class="circle"></span>
+            <span class="date">01.07 - 27.07.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              Officially announce the teams in the Challenge round.
+              <br />
+              Announce the topic of the Challenge round.
+            </h3>
+            <span class="circle"></span>
+            <span class="date">29.07.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              Teams prepare products for the Challenge round.
+              <br />
+              Time to submit products for the Challenge round <span class="font-weight-bold" style="color: #ff8100;">(15.08.2024)</span>
+            </h3>
+            <span class="circle"></span>
+            <span class="date">29.07-15.08.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              The judges interview the teams and score the products submitted by the teams.
+            </h3>
+            <span class="circle"></span>
+            <span class="date">16.08-18.08.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              Announce the winners and top teams to receive the FTC kit.
+            </h3>
+            <span class="circle"></span>
+            <span class="date">19.08.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              Decalre the theme of the season<span class="font-weight-bold" style="color: #ff8100;"><span class="font-italic font-weight-bolder"> FIRST®</span> Tech Challenge 24-25</span>
+            </h3>
+            <span class="circle"></span>
+            <span class="date">09.2024</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+              <span class="font-weight-bold"><span class="font-italic font-weight-bolder">FIRST®</span> Tech Challenge Vietnam</span> in Hà Nội
+            </h3>
+            <span class="circle"></span>
+            <span class="date">02.2025</span>
+          </li>
+          <li>
+            <h3 class="title mb-0">
+            <span class="font-weight-bold"><span class="font-italic font-weight-bolder">FIRST®</span> Tech Challenge</span> in the United States
+            </h3>
+            <span class="circle"></span>
+            <span class="date">04.2025</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CYBER-SECURITY-SECTION -->
+    <section class="cyber-security-section overflow-hidden mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12 d-lg-block d-none">
+            <div class="cyber-content-img" data-aos="fade-up-left">
+              <figure class="mb-0">
+                <img src="/assets/images/585x660-3-vorc.png" alt="" class="cyber-security-provider-img w-100" />
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="cyber-content text-left" data-aos="fade-up-right">
+              <h3>
+                <span style="color: #ff8100;">Register</span> for VORC 2024
+              </h3>
+              <p class="mb-3 p-0 ">
+                <span class="font-weight-bold" style="color: #ff8100;">
+                  Step 1:
+                </span>
+                <span class="text-white">
+                  Finish the registration form 
+                  <a href="https://forms.gle/Wdd35W7gphRVxG1A8" style="color: #ff8100;">here</a>
+                  <br />
+                  (Registration time: 10/06/2024 - 23h59' 30/06/2024).
+                </span>
+                <br />
+                <span class="font-italic" style="text-decoration: underline; font-size: 1rem;">
+                  Teams can register the team name first to confirm participation in the program and add members later (Teams add members by filling out the form again before 05/07/2024).
+                </span>
+              </p>
+              <p class="mb-3 p-0">
+                <span class="font-weight-bold" style="color: #ff8100;">
+                  Step 2:
+                </span>
+                <br />
+                <span class="text-white">100% team members need to join <a href="https://discord.gg/dhmg7DdWFY" style="color: #ff8100;">Discord VORC 2024.</a> Any member not joining the Discord  <span class="font-weight-bold">(after 07/07/2024)</span> will not be qualify as an official team members.</span>
+              </p>
+              <p class="mb-3 p-0">
+                <span class="font-weight-bold" style="color: #ff8100;">
+                  Step 3:
+                </span>
+                <br />
+                <span class="text-white"> Teams need to submit the school's confirmation letter to register for the program. Details at
+                  <a href="https://docs.google.com/document/d/1EoN1P4fv5H5xb_CG0ziKRi54O6Ogkcy8huB9CJHKfWA/edit?usp=sharing" style="color: #ff8100;">Event summary.</a></span>
+              </p>
+              <p class="mb-3 p-0">
+                <span class="font-weight-bold" style="color: #ff8100;">
+                  Step 4:
+                </span>
+                <br />
+                <span class="text-white">Teams need to anwser <a href="https://forms.gle/3cVwRsRQeDMBHC9G6" style="color: #ff8100;">the entry survey
+                </a> before <span class="font-weight-bold">23h59’ 20/07/2024</span></span>
+                <br />
+                <span class="font-italic" style="text-decoration: underline; font-size: 1rem;">Requirement: 100% team members and mentors submitted the survey.</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <p class="m-0 p-0 text-left">
+              If the team has any changes in team information and member list, the team needs to send information to the organizers via email:
+              <a href="mailto:robotics@fe.edu.vn" style="color: #ff8100;">robotics@fe.edu.vn </a>
+              <br />
+              If the team has any questions about the registration process, the team can ask questions through the
+              <a href="https://www.facebook.com/vn.vorc" style="color: #ff8100;">fanpage,</a> <a href="mailto:robotics@fe.edu.vn" style="color: #ff8100;">email</a> or VORC <a href="https://discord.gg/dhmg7DdWFY" style="color: #ff8100;">Discord</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-Section -->
+    <div class="footer-section">
+      <div class="about-right-icon">
+        <figure class="footer-icon">
+          <img src="/assets/images/footer-left.png" alt="" class="img-fluid" />
+        </figure>
+      </div>
+      <div class="footer-outer-margin" data-aos="fade-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="footer-content1" data-aos="flip-left">
+                <figure>
+                  <a href="index.html"><img style="width: 200px;" src="/assets/images/redlight-logo.png" alt="" class="img-fluid" /></a>
+                </figure>
+              </div>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 d-xl-block d-none"></div>
+            <div class="col-xl-2 col-lg-3 col-md-2 col-sm-12 d-lg-block d-none">
+              <ul class="list-unstyled services-footer" data-aos="flip-left">
+                <li class="list-item footer-margin-left">
+                  <h5 class="footer-link footer-services-heading">About FTC VN
+                  </h5>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="aboutFirst.html" class="text-decoration-none footer-link-p">
+                    About FIRST
+                  </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="#aboutFirst" class="text-decoration-none footer-link-p">
+                    FIRST Tech Challenge Vietnam
+                  </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="#ruleFirst" class="text-decoration-none footer-link-p">
+                    Rules
+                  </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="#timelineFirst" class="text-decoration-none footer-link-p">
+                    Timeline
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 d-md-block d-none">
+              <ul class="list-unstyled support-footer" data-aos="flip-left">
+                <li class="list-item footer-margin-left">
+                  <h5 class="footer-link footer-services-heading">Support</h5>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="#register" class="text-decoration-none footer-link-p">
+                    Registration
+                  </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="#faq" class="text-decoration-none footer-link-p">
+                    FAQs
+                  </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="vorc.html" class="text-decoration-none footer-link-p">
+                    Vietnam Open Robotics Challenge
+                  </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-caret-right"></i>
+                  <a href="https://www.firstinspires.org/robotics/ftc/" class="text-decoration-none footer-link-p">
+                    FIRST Tech Challenge official page
+                  </a>
+                </li>
+  
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="footer-list">
+                <div class="icon-list-box1" data-aos="flip-left">
+                  <ul class="list-unstyled contact-us-ul">
+                    <li class="list-item">
+                      <h5 class="footer-link footer-get-heading">
+                        Information
+                      </h5>
+                    </li>
+                    <li class="list-item position-reletive addres-list icon-list1">
+                      <div class="number">
+                        <a href="mailto:webmaster@example.com" class="text-decoration-none footer-link-p ml-0"><span class="footer-additional">Email: </span>
+                          robotics@fe.edu.vn</a>
+                      </div>
+                    </li>
+                    <li class="list-item position-reletive addres-list icon-list1">
+                      <div class="contact-number">
+                        <a href="tel:+4733378901" class="text-decoration-none footer-link-p ml-0"><span class="footer-additional">Phone: </span>0375156543 (Ms.Trang)</a>
+                      </div>
+                    </li>
+                    <li class="list-item position-reletive addres-list icon-list1">
+                      <div class="contact-address">
+                        <a href="https://maps.app.goo.gl/UjMNryBG7ppNoZtR8" class="text-decoration-none footer-link-p ml-0"><span class="footer-additional">Address:
+                          </span>Hoa Lac Hi-tech Park, km 29, Đại lộ Thăng Long, Hà Nội, Vietnam</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar text-center">
+        <div class="container">
+          <div class="row">
+            <div class="footer-bar-content w-100 overflow-hidden">
+              <p class="text-size-16 mb-0">
+                Copyright ©2023 FPT Edu Experience Space All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="/assets/js/animations.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/custom-script.js"></script>
+    <script src="/assets/js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/text-animations.js"></script>
+</body>
+
+</html>
