@@ -1,677 +1,317 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="vn">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FIRST Tech Challenge Vietnam</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/FIRSTTech_IconVert_RGB.png" />
-  <link rel="manifest" href="/manifest.json" />
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/mobile.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css" integrity="sha512-bZBu2H0+FGFz/stDN/L0k8J0G8qVsAL0ht1qg5kTwtAheiXwiRKyCq1frwfbSFSJN3jooR5kauE0YjtPzhZtJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/resass.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/FIRSTTech_IconVert_RGB.png">
+  <meta name="description" content=" FIRST Tech Challenge Việt Nam là giải đấu FTC chính thức lần đầu tiên được tổ chức tại Việt Nam theo bản quyền của FIRST tại Hoa Kỳ. FIRST Tech Challenge Việt Nam mong muốn tạo ra một sân chơi về công nghệ nhằm khuyến khích tinh thần học tập, sáng tạo, mối quan tâm về xã hội của học sinh Việt Nam, đồng thời truyền cảm hứng và thúc đẩy học sinh học tập, thực hành, ứng dụng các công nghệ mới, góp phần xây dựng nguồn lực chất lượng cao, đáp ứng nhu cầu của cuộc cách mạng công nghiệp 4.0.">
 </head>
 
 <body>
-  <!-- HEADER-SECTION -->
-  <div class="home-header-section">
-    <header class="header py-3" style="position: fixed; top: 0; left: 0; z-index: 9999; transition: 0.5s; width: 100vw;"
-      id="header">
-      <div class="main-header">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light p-0">
-            <a class="navbar-brand d-flex justify-content-center align-items-center" href="index.html"><img width="150"
-                height="50" src="./assets/images/redlight-logo.png" alt="" class="img-fluid diverge-logo" /></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item active" style="margin-left: 115px;">
-                  <a class="nav-link text-decoration-none navbar-text-color home-margin-top" href="index.html">Home
-                    <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-none navbar-text-color" href="aboutFirst.html">Về <span
-                      style="font-weight: 900 !important; font-style: italic;">FIRST®</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-none navbar-text-color" href="defaultValue.html">Giá trị cốt
-                    lõi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-none navbar-text-color" href="awardFirst.html">Các giải thưởng</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-none navbar-text-color" href="resources.html">Resources</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-decoration-none navbar-text-color" href="vorc-cantho.html">VORC Cần Thơ</a>
-                </li>
-                <li class="nav-item dropdown redlight-dropdown">
-                  <a class="nav-link dropdown-toggle navbar-text-color" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xem thêm</a>
-                  <ul class="list-unstyled dropdown-menu dropdown-content-redlight">
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.firstinspires.org/robotics/ftc/">FIRST Tech
-                        Challenge</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://ftc-docs.firstinspires.org/en/latest/index.html">Tổng hợp
-                        tài liệu FTC</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item"
-                        href="https://ftc-docs.firstinspires.org/en/latest/sponsors/discounts/discounts.html">Giảm giá
-                        dành cho các đội
-                      </a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="supportingPrograms.html">Supporting programs</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.gobilda.com">goBILDA</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.andymark.com/pages/first-tech-challenge">AndyMark</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.servocity.com">Servocity</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.revrobotics.com">REV Robotics</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item"
-                        href="https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge">PITSCO</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.chiefdelphi.com">Chief Delphi</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.reddit.com/r/FTC/">r/FTC</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item"
-                        href="https://www.firstinspires.org/resource-library?flagged=All&combine=&field_content_type_value%5B%5D=first_tech_challenge&field_resource_library_tags_tid=All&field_resource_library_tags_tid=All&sort_by=created_1">Thư
-                        viện tài nguyên</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://www.firstinspires.org/ftc-photos">Thư viện hình
-                        ảnh</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="https://firsttechchallenge.blogspot.com/">Blog
-                        FIRST®</a>
-                    </li>
-                    <li class="">
-                      <a class="dropdown-item" href="volunteer.html">Tình nguyện viên</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </nav>
+
+  <!-- Navbar section -->
+  <script type="module" src="/components/navbar.js"></script>
+  <ftcvn-navbar></ftcvn-navbar>
+
+  <!--Screen heigh 2-Column Banner section -->
+  <section class="w-100 justify-content-center" style="min-height: 80vh; padding-top: 150px; background-color: #025aaa;">
+    <div class="container mx-auto h-100 d-flex">
+      <div class="row">
+        <div class="col-12 col-lg-6 align-content-center" data-aos="fade-up">
+          <h1 class="fw-bold fs-1 mb-3 text-white"><span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech Challenge Vietnam</h1>
+          <p class="fs-5 text-white">
+            Tham gia kênh Discord của <span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech Challenge Vietnam
+            <a class="text-decoration-none" style="color: #ff8100" href="https://discord.com/invite/jMrsKAfuMz">
+              tại đây
+            </a>
+          </p>
+          <div class="d-flex flex-column flex-lg-row gap-3">
+            <a href="#registration-section" class="btn btn-white fw-bold p-3">Tham gia</a>
+            <a href="/2324/index.html" class="btn btn-outline-white fw-semibold p-3">FTC 23-24 Event Recap</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 align-content-center">
+          <img class="img-fluid p-5" src="/assets/images/hero-image.png" alt="">
         </div>
       </div>
-    </header>
-    <!-- BANNER-SECTION -->
-    <div class="home-banner-section overflow-hidden">
-      <div class="banner-container-box" style="height: 750px;">
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 mb-md-0 mb-4 text-md-left text-center"
-              style="max-height: fit-content !important;">
-              <div class="home-banner-text" data-aos="fade-up">
-                <h1 class="text-white"><span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech
-                  Challenge Vietnam</h1>
-                <p class="text-white banner-paragraph" style="margin-bottom: 12px !important;">
-                  Tham gia kênh Discord của <span style="font-weight: 900 !important; font-style: italic;">FIRST®</span>
-                  Tech Challenge Vietnam
-                  <a style="color: #ff8100" href="https://discord.com/invite/jMrsKAfuMz">
-                    tại đây
-                  </a>
+  </section>
+  <svg id="wave" style="transform:rotate(180deg); transition: 0.3s; margin-top: -2px;" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+        <stop stop-color="rgba(2, 90, 170, 1)" offset="0%"></stop>
+        <stop stop-color="rgba(2, 90, 170, 1)" offset="100%"></stop>
+      </linearGradient>
+    </defs>
+    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L24,10C48,20,96,40,144,45C192,50,240,40,288,36.7C336,33,384,37,432,38.3C480,40,528,40,576,43.3C624,47,672,53,720,51.7C768,50,816,40,864,45C912,50,960,70,1008,71.7C1056,73,1104,57,1152,45C1200,33,1248,27,1296,20C1344,13,1392,7,1440,10C1488,13,1536,27,1584,41.7C1632,57,1680,73,1728,70C1776,67,1824,43,1872,31.7C1920,20,1968,20,2016,23.3C2064,27,2112,33,2160,35C2208,37,2256,33,2304,38.3C2352,43,2400,57,2448,53.3C2496,50,2544,30,2592,18.3C2640,7,2688,3,2736,6.7C2784,10,2832,20,2880,20C2928,20,2976,10,3024,10C3072,10,3120,20,3168,26.7C3216,33,3264,37,3312,35C3360,33,3408,27,3432,23.3L3456,20L3456,100L3432,100C3408,100,3360,100,3312,100C3264,100,3216,100,3168,100C3120,100,3072,100,3024,100C2976,100,2928,100,2880,100C2832,100,2784,100,2736,100C2688,100,2640,100,2592,100C2544,100,2496,100,2448,100C2400,100,2352,100,2304,100C2256,100,2208,100,2160,100C2112,100,2064,100,2016,100C1968,100,1920,100,1872,100C1824,100,1776,100,1728,100C1680,100,1632,100,1584,100C1536,100,1488,100,1440,100C1392,100,1344,100,1296,100C1248,100,1200,100,1152,100C1104,100,1056,100,1008,100C960,100,912,100,864,100C816,100,768,100,720,100C672,100,624,100,576,100C528,100,480,100,432,100C384,100,336,100,288,100C240,100,192,100,144,100C96,100,48,100,24,100L0,100Z"></path>
+  </svg>
+
+  <!-- Content-image section -->
+  <section class="pt-5 pb-3 w-100">
+    <div class="container mx-auto">
+      <div class="row w-100 mx-auto">
+        <div class="col-12 col-lg-6 align-content-center">
+          <h1 class="fw-semibold fs-1 mb-3">
+            <span class="fw-bold" style="color: #025aaa;"><span class="fw-bolder fst-italic">FIRST®</span> Tech Challenge</span> là gì?
+          </h1>
+          <p class="fs-5">
+            <span class="fw-bold">FIRST Tech Challenge</span> không chỉ là chế tạo robot. Các đội FIRST Tech Challenge (mình đa 15 thành viên trong nhóm, từ lớp 7 đến lớp 12) được thử thách để thiết kế, chế tạo, lập trình và vận hành robot để cạnh tranh với hình thức đối đầu trực tiếp theo liên minh.
+            <br/>
+            <br/>
+            Dưới sự hướng dẫn của các huấn luyện viên và cố vấn, các bạn học sinh sẽ được phát triển kỹ năng STEM và vận dụng các nguyên lý kỹ thuật, đồng thời trải nghiệm thành quả của sự chăm chỉ, sáng tạo và tinh thần làm việc nhóm.
+            <br/>
+            <br/>
+            Bộ kit robot có thể tái sử dụng từ năm này sang năm khác và có thể được lập trình với nhiều cấp độ dựa trên Java. Các đội sẽ thiết kế và chế tạo robot, gây quỹ, thiết kế và truyền thông thương hiệu đội của mình đồng thời thực hiện các hoạt động cộng đồng để đạt được các giải thưởng đặc biệt. Các thí sinh tham gia cũng có thể tiếp cậncác học bổng đại học với tổng giá trị trên 80 triệu đô la Mỹ.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6 align-content-center">
+          <img class="img-fluid p-5" src="/assets/images/robot-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom section -->
+  <section class="pt-5 pb-3 w-100" style="background-color: #025aaa;">
+    <div class="container row mx-auto">
+      <div class="col-lg-5 col-12" style="max-height: 250px;">
+        <img src="https://www.firstinspires.org/sites/default/files/2024-banner/ftc_into_the_deep.gif" alt="" class="img-fluid d-block mx-auto" style="object-fit: contain; height: 100%;">
+      </div>
+      <div class="col-lg-7 col-12 mx-auto text-center text-lg-start mt-3 mt-lg-0">
+        <h4 class="text-white fs-4">Chủ đề mùa giải 2024-2025: INTO THE DEEP<sup>SM</sup></h4>
+        <p class="text-white fs-5">Tại mùa giải <span class="fw-semibold">INTO THE DEEP</span>, FIRST Tech Challenge sẽ vén màn sức mạnh của thiết kế, sáng tạo và sự chính xác để tạo ra vô vàn những trải nghiệm mới.</p>
+        <a class="btn bg-white p-3 text-primary fw-semibold">Khám phá chủ đề</a>
+      </div>
+      <div class="col-12 d-flex flex-wrap w-100 justify-content-around mt-4">
+        <span class="fs-5 fw-semibold text-white">#FTCViệtNam</span>
+        <span class="fs-5 fw-semibold text-white">#HơnCảRobot</span>
+        <span class="fs-5 fw-semibold text-white">#MoreThanRobots</span>
+        <span class="fs-5 fw-semibold text-white">#FIRSTTechChallenge</span>
+        <span class="fs-5 fw-semibold text-white">#IntoTheDeep</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content-image section -->
+  <section class="pt-5 pb-3 w-100" style="background: url(/assets/media/event-day.jpg) no-repeat; background-position: right 30%; min-height: 700px;">
+    <div class="container mx-auto">
+      <div class="row w-100 mx-auto">
+        <div class="col-12 col-lg-7 align-content-center bg-white pt-5 pb-3 px-3 rounded">
+          <h1 class="fw-semibold fs-1 mb-3">
+            Về <span class="fw-bold" style="color: #025aaa;"><span class="fw-bolder fst-italic">FIRST®</span> Tech Challenge Vietnam 2024 - 2025</span>
+          </h1>
+          <p class="fs-5">
+            <span class="fw-bold">FIRST Tech Challenge Vietnam (FTC VN)</span> là một giải vô địch khu vực được chứng nhận tại Việt Nam, nơi hai đội được trao Inspire Award và 1st Place Alliance Captain sẽ tiến mình đến FIRST World Championship.
+            <br/>
+            <br/>
+            <span class="fw-bold">Chúng mình cũng chào đón các đội quốc tế tham gia trong năm nay!</span> Đặc biệt là các quốc gia Đông Nam Á: Philippines, Myanmar, Malaysia, Campuchia, Lào, Singapore, Đông Timor, và Brunei Darussalam.
+          </p>
+          <h2 class="fs-2">Đối tượng tham dự giải đấu</h2>
+          <ul class="fs-5">
+            <li>Đội tân binh (mới)</li>
+            <li>Đội kỳ cựu (trở lại giải đấu từ FIRST Tech Challenge Vietnam 2023-2024)</li>
+            <li>Đội quốc tế, khu vực KHÔNG có giải vô địch khu vực.</li>
+          </ul>
+          <p class="fs-5">Đối với các đội quốc tế CÓ giải vô địch khu vực, xem thêm FAQs</p>
+        </div>
+        <div class="col-12 col-lg-5 align-content-center">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline section -->
+  <section class="pt-5 pb-3" id="timeline-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12">
+          <h1 class="fw-semibold fs-1 mb-3 text-center">
+            Các mốc thời gian <span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech Challenge Vietnam 2024-2025
+          </h1>
+          <ul class="timeline">
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">06.11.2024</span>
+                  <br />
+                  Mở đơn đăng ký, Nền tảng cộng đồng trực tuyến & Sự kiện khởi động FTC
                 </p>
-                <div
-                  class="banner-btn discover-btn-banner d-lg-block d-md-block d-flex flex-column justify-content-center align-items-center">
-                  <a href="index.html#event-recap" class="text-decoration-none mr-lg-3 mb-3">FTCVN 23-24 Event recap</a>
-                  <a href="vncmp.html" class="text-decoration-none play-button">Event Info</a>
-                </div>
               </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="banner-img-content position-relative" data-aos="fade-up">
-                <figure class="banner-img mb-0 wow slideInRight" data-wow-duration="2s">
-                  <img class="img-fluid banner-img-width" src="assets/images/520x427-1-home.png" alt="" />
-                </figure>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">Ngày thứ 3 tuần lễ đầu tiên và tuần lễ thứ ba của mỗi tháng</span>
+                  <br />
+                  Hỏi đáp cùng Ban tổ chức
+                </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="aboutFirst"></div>
-  <!-- MAIN SECTION -->
-  <section class="cyber-security-section cyber-security-section2 overflow-hidden">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="cyber-content" data-aos="fade-up-left">
-            <h3>
-              <span class="cyber-text">FIRST Tech Challenge </span>là gì?
-            </h3>
-            <p class="security-services-p" style="margin-bottom: 10px; text-align: justify;">
-              <span style="font-weight: 900; color: white">FIRST® Tech Challenge</span>
-              không chỉ đơn giản là chế tạo robot. Các đội thi (tối đa 15 thành viên trong nhóm, lớp 7-12) tham gia thử
-              thách để thiết kế, xây dựng, lập trình và vận hành robot để thi đấu với nhau theo liên minh. Bộ kit robot
-              có thể dùng từ năm này sang năm khác và có thể được lập trình bằng nhiều cấp độ khác nhau của ngôn ngữ
-              Java. Ngoài việc thiết kế và chế tạo robot, các đội còn tham gia gây quỹ, thiết kế thương hiệu, truyền
-              thông, và tiếp cận cộng đồng để đạt được các giải thưởng khác nhau. <br />
-              <br />
-            </p>
-            <p class="security-services-p" style="margin-bottom: 10px; text-align: justify;">
-              Được hướng dẫn bởi các huấn luyện viên và cố vấn, các bạn học
-              sinh có thể phát triển các kỹ năng STEM và thực hành các nguyên
-              tắc thiết kế cơ khí, đồng thời thực hành những giá trị như sự
-              chăm chỉ, đổi mới sáng tạo, và làm việc nhóm. Với
-              <a href="defaultValue.html" style="color: #ff8100;">Gracious Professionalism® (Sự Chuyên nghiệp Tử
-                tế)</a>, các bạn học sinh được
-              khuyến khích tạo ra bản sắc của đội mình và trở thành đại sứ cho
-              FIRST và STEM trong cộng đồng của chính các bạn. <br /><br />
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 text-md-right text-center">
-          <div class="cyber-content-img-right" data-aos="fade-up-right">
-            <figure class="mb-0">
-              <img src="./assets/images/585x660-1.png" alt="" class="" />
-            </figure>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="cyber-content" data-aos="fade-up">
-            <p class="security-services-p" style="margin-bottom: 10px; text-align: justify;">
-              Mỗi mùa giải sẽ kết thúc với các giải đấu khu vực và giải vô
-              địch FIRST tại Mỹ.<br /><br />
-              Tại mùa giải CENTERSTAGE℠ do Raytheon Technologies (RTX) tài
-              trợ, ra mắt vào ngày 9 tháng 9 năm 2023, FIRST® Tech Challenge
-              sẽ vén màn sức mạnh của thiết kế, sáng tạo và sự chính xác để
-              tạo ra vô vàn những trải nghiệm mới. <br /><br />
-              #FTCViệtNam #HơnCảRobot #MoreThanRobots #FIRSTTechChallenge
-              #CENTERSTAGE
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- CYBER-SECURITY-SECTION -->
-  <section class="cyber-security-section overflow-hidden">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="cyber-content-img" data-aos="fade-up-left">
-            <figure class="mb-0">
-              <img src="./assets/images/585x660-2.png" alt="" class="cyber-security-provider-img" width="550" />
-            </figure>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="cyber-content" data-aos="fade-up-right">
-            <h3>
-              <span class="cyber-text">FIRST Tech Challenge Vietnam </span> là
-              gì?
-            </h3>
-            <p class="security-services-p" style="margin-bottom: 10px; text-align: justify;">
-              FIRST Tech Challenge Việt Nam là giải đấu FTC chính thức lần đầu tiên được tổ chức tại Việt Nam theo bản
-              quyền của FIRST tại Hoa Kỳ.
-              FIRST Tech Challenge Việt Nam mong muốn tạo ra một sân chơi về công nghệ nhằm khuyến khích tinh thần học
-              tập,
-              sáng tạo, mối quan tâm về xã hội của học sinh Việt Nam, đồng thời truyền cảm hứng và thúc đẩy học sinh học
-              tập,
-              thực hành, ứng dụng các công nghệ mới, góp phần xây dựng nguồn lực chất lượng cao, đáp ứng nhu cầu của
-              cuộc cách mạng công nghiệp 4.0.
-              <br />
-              <br />
-            </p>
-            <p class="security-services-p" style="margin-bottom: 10px; text-align: justify;">
-              FIRST Tech Challenge Việt Nam được tổ chức bởi Tổ chức giáo dục FPT,
-              Trường Đại học FPT cùng với sự tham gia hợp tác, hỗ trợ của cộng đồng kỹ sư, chuyên gia công nghệ Việt
-              Nam,
-              các bạn trẻ thuộc mạng lưới của FIRST tại Việt Nam và trên thế giới.
-            </p>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <!-- SEASON THEME SECTION -->
-  <div class="p-5" style="background-color: #202020;" id="event-recap"></div>
-  <section class="about-us-section-start" style="background-color: rgb(255, 255, 255); border: solid 15px #ff8100;">
-    <div class="col-12">
-      <h3 style="color: #202020;" class="text-center">
-        Chủ đề Mùa giải 2023-2024: <span style="color: #FF0096;">FIRST in SHOW</span> & <span
-          style="color: #FFAB00;">CENTERSTAGE</span>
-      </h3>
-      <div style="display: flex; justify-content: center;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6e-5Uo1dRic?si=oxww_ohnUAlZ1iYG"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="container rounded row mx-auto">
-      <div class="col-12 col-lg-6">
-        <div class="w-100 pt-5 d-flex align-items-center justify-content-center" style="height: 300px;">
-          <img src="./assets/images/FIRST in SHOW.png" alt="" class="mx-auto d-block w-100" style="max-width: 400px;" />
-        </div>
-        <div style="background-color: #ff8100;">
-          <p class="text-white" style="padding: 10px">FIRST IN SHOW: The season theme - think spotlights, costume, and
-            dramatic flair. It provides branding materials and sets the stage for the whole season</p>
-        </div>
-      </div>
-      <div class="col-12 col-lg-6">
-        <div class="w-100 pt-5 d-flex align-items-center justify-content-center" style="height: 300px;">
-          <img src="./assets/images/CENTERSTAGE.png" alt="" class="mx-auto d-block w-100" style="max-width: 400px;" />
-        </div>
-        <div style="background-color: #ff8100;">
-          <p class="text-white" style="padding: 10px">CENTERSTAGE: The game challenge - robots perform on theatrical
-            field, collecting pixels, painting mosaics, moving props, and wowing the audience. It's about robot design,
-            strategy and teamwork.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AWARD SECTION -->
-  <div class="p-5" style="background-color: #202020;"></div>
-  <section class="w-100" style="background-color: #202020;">
-    <div class="container mb-4">
-      <h3 style="margin-bottom: 0;" class="text-center">Giải thưởng<br />
-        <span style="color: #ff8100;">FIRST Tech Challenge Vietnam 23 - 24</span>
-      </h3>
-    </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/inspire-award.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #ffffff; color: #ff8100; width: fit-content;">Inspire Award</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">FPT3DN.Robotown</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">25152 | FPT HIGH SCHOOL DA NANG</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/winning-alliance.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #008cff; color: #ffffff; width: fit-content;">Winning Alliance</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">GreenAms Robotics</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">24751 | HANOI - AMSTERDAM HIGH SCHOOL FOR THE GIFTED</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/winning-alliance-2.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #008cff; color: #ffffff; width: fit-content;">Winning Alliance</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">FSCQN1</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">23318 | FPT HIGH SCHOOL QUY NHON</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/winning-alliance-3.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #008cff; color: #ffffff; width: fit-content;">Winning Alliance</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">FSCCANTHO</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">23327 | FPT HIGH SCHOOL CAN THO</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/control-award.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #3feb48; color: #ffffff; width: fit-content;">Control Award</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">THAIPHIEN OPEN STEAM</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">25258 | THAI PHIEN HIGH SCHOOL</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/motivate-award.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #3feb48; color: #ffffff; width: fit-content;">Motivate Award</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">RISE AND SHINE</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">25242 | HAI BA TRUNG HIGH SCHOOL - THACH THAT</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/think-award.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #3feb48; color: #ffffff; width: fit-content;">Think Award</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">STEAM GIA THIỀU</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">25313 | NGUYEN GIA THIEU HIGH SCHOOL</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/innovate-award.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #3feb48; color: #ffffff; width: fit-content;">Innovate Award</h3>
-            <p class="text-white p-2 mx-auto my-0 py-0" style="background-color: #ff8100; width: fit-content;">GreenAms Robotics</p>
-            <p class="text-white p-2 mx-auto" style="background-color: #ff8100; width: fit-content;">24751 | HANOI - AMSTERDAM HIGH SCHOOL FOR THE GIFTED</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block mx-auto w-100 h-100" style="object-fit: cover; max-height: 900px;" src="./assets/images/finalist-alliance.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="text-center p-2 mx-auto" style="font-size: 30px; background-color: #ff8100; color: #ffffff; width: fit-content;">Finalist Alliance</h3>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
-
-  <!-- EVENT NUMBERS SECTION -->
-  <div class="p-5" style="background-color: #202020;"></div>
-  <section style="background-color: #202020;">
-    <div class="container">
-      <h3 style="margin-bottom: 0;" class="text-center">Những con số <span style="color: #ff8100;">ấn tượng</span> của mùa giải <br />
-      </h3>
-    </div>
-    <div style="background-color: #ff8100; margin-top: 30px;" class="py-3">
-      <div class="container mx-auto row justify-content-center">
-        <div class="col-lg-3 p-2 mx-2 mb-3 col-12" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">26</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">teams from all 3 regions and 14 provinces in
-            Vietnam</p>
-        </div>
-        <div class="col-lg-5 p-2 mx-2 mb-3 col-12" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">277</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">student participation in the <span
-              class="font-weight-bold">FIRST Tech Challenge Vietnam 23-24</span></p>
-        </div>
-        <div class="col-lg-3 p-2 mx-2 mb-3 col-12" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">04</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">female-led teams</p>
-        </div>
-        <div class="col-lg-2 col-5 p-2 mx-2 mb-3 " style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">31%</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">female participation</p>
-        </div>
-        <div class="col-lg-2 col-5 p-2 mx-2 mb-3" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">20+</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">international volunteers</p>
-        </div>
-        <div class="col-lg-2 col-5 p-2 mx-2 mb-3" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">100+</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">organizers with</p>
-          <h3 style="color: #202020; margin-bottom: 0;" class="text-center">90+</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">volunteers</p>
-        </div>
-        <div class="col-lg-2 col-5 p-2 mx-2 mb-3" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">10+</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">community and training partners</p>
-        </div>
-        <div class="col-lg-2 col-5 p-2 mx-2 mb-3" style="background-color: white;">
-          <h3 style="color: #202020" class="text-center">10+</h3>
-          <p style="color: #202020; margin-bottom: 0;" class="text-center">sponsors</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- TEAM REGISTRATION SECTION -->
-  <section class="cyber-security-section cyber-security-section2 overflow-hidden"
-    style="padding-bottom: 100px !important;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="cyber-content" data-aos="fade-up-left">
-            <h3 class="pt-5">
-              FAQ
-            </h3>
-            <p class="security-services-p" style="margin-bottom: 10px;">
-              - Tất cả các đội phải đăng ký thông qua đăng ký chính thức của FIRST để có được số hiệu đội để được
-              công nhận chính thức là đội của FIRST và có thể đặt hàng từ PITSCO.
-              <br />
-              <br />
-              - Các đội sau đó cần đăng kí với FIRST Tech Challenge Vietnam để tham gia giải đấu tranh chức vô địch
-              Việt Nam
-              <br />
-              <br />
-              - Các thành viên xuất sắc đạt Inspire Award tại FIRST Tech Challenge Việt Nam sẽ được tài trợ tham gia
-              FTC World Championship tại Mỹ vào tháng 4/2023.
-              <br />
-              <br />
-              - Các đội cần sử dụng hệ thống của FIRST để đặt hàng từ
-              <a style="color: #ff8100;"
-                href="https://www.pitsco.com/Competitions-Clubs-and-Programs/FIRST-Tech-Challenge">
-                PITSCO
-              </a>
-              hoặc các trang như
-              <a style="color: #ff8100;" href="https://www.gobilda.com">
-                goBILDA,
-              </a>
-              <a style="color: #ff8100;" href="https://www.revrobotics.com">
-                REV Robotics,
-              </a>
-              <a style="color: #ff8100;" href="https://www.servocity.com">
-                Servocity
-              </a>
-              , và
-              <a style="color: #ff8100;" href="https://www.andymark.com/pages/first-tech-challenge">
-                AndyMark.
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-5 col-sm-12 text-md-right text-center">
-          <div class="cyber-content-img-right" data-aos="fade-up-right">
-            <figure class="mb-0">
-              <img src="./assets/images/585x660-4.png" alt="" class="" />
-            </figure>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="cyber-content" data-aos="fade-up">
-            <h3 class="pt-5">
-              Thông tin khác
-            </h3>
-            <p class="security-services-p">
-              <a style="color: #ff8100;" href="https://www.firstinspires.org/robotics/ftc/game-and-season">- TÀI
-                LIỆU VỀ MÙA GIẢI</a>
-              <br />
-              - Tham gia kênh Discord của FIRST Tech Challenge Vietnam <a style="color: #ff8100;"
-                href="https://discord.com/invite/jMrsKAfuMz">tại đây</a>
-              <br />
-              - Ngoài ra, nếu bạn quan tâm đến vai trò Tình nguyện viên & Mentor/Cố vấn, bạn có thể liên hệ BTC trực
-              tiếp tại nhóm Zalo <a style="color: #ff8100;" href="https://zalo.me/g/vnaqlo571">tại đây</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Footer-Section -->
-  <div class="footer-section">
-    <div class="about-right-icon">
-      <figure class="footer-icon">
-        <img src="./assets/images/footer-left.png" alt="" class="img-fluid" />
-      </figure>
-    </div>
-    <div class="footer-outer-margin" data-aos="fade-up">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="footer-content1" data-aos="flip-left">
-              <figure>
-                <a href="index.html"><img style="width: 200px;" src="./assets/images/redlight-logo.png" alt=""
-                    class="img-fluid" /></a>
-              </figure>
-            </div>
-          </div>
-          <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 d-xl-block d-none"></div>
-          <div class="col-xl-2 col-lg-3 col-md-2 col-sm-12 d-lg-block d-none">
-            <ul class="list-unstyled services-footer" data-aos="flip-left">
-              <li class="list-item footer-margin-left">
-                <h5 class="footer-link footer-services-heading">VỀ FTC VN
-                </h5>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="aboutFirst.html" class="text-decoration-none footer-link-p">
-                  Về FIRST
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="#aboutFirst" class="text-decoration-none footer-link-p">
-                  Về FIRST Tech Challenge Vietnam
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="#ruleFirst" class="text-decoration-none footer-link-p">
-                  Luật chơi
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="#timelineFirst" class="text-decoration-none footer-link-p">
-                  Lịch trình
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-12 d-md-block d-none">
-            <ul class="list-unstyled support-footer" data-aos="flip-left">
-              <li class="list-item footer-margin-left">
-                <h5 class="footer-link footer-services-heading">Hỗ trợ</h5>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="#register" class="text-decoration-none footer-link-p">
-                  Đăng ký
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="#faq" class="text-decoration-none footer-link-p">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="vorc.html" class="text-decoration-none footer-link-p">
-                  Vietnam Open Robotics Challenge
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-caret-right"></i>
-                <a href="https://www.firstinspires.org/robotics/ftc/" class="text-decoration-none footer-link-p">
-                  Trang chính thức của FIRST Tech Challenge
-                </a>
-              </li>
-
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="footer-list">
-              <div class="icon-list-box1" data-aos="flip-left">
-                <ul class="list-unstyled contact-us-ul">
-                  <li class="list-item">
-                    <h5 class="footer-link footer-get-heading">
-                      Thông tin
-                    </h5>
-                  </li>
-                  <li class="list-item position-reletive addres-list icon-list1">
-                    <div class="number">
-                      <a href="mailto:webmaster@example.com" class="text-decoration-none footer-link-p ml-0"><span
-                          class="footer-additional">Email: </span>
-                        robotics@fe.edu.vn</a>
-                    </div>
-                  </li>
-                  <li class="list-item position-reletive addres-list icon-list1">
-                    <div class="contact-number">
-                      <a href="tel:+4733378901" class="text-decoration-none footer-link-p ml-0"><span
-                          class="footer-additional">Phone: </span>0375156543 (Ms.Trang)</a>
-                    </div>
-                  </li>
-                  <li class="list-item position-reletive addres-list icon-list1">
-                    <div class="contact-address">
-                      <a href="https://maps.app.goo.gl/UjMNryBG7ppNoZtR8"
-                        class="text-decoration-none footer-link-p ml-0"><span class="footer-additional">Address:
-                        </span>Khu GD&ĐT, CNC Hòa Lạc, Km29, Đại lộ Thăng Long,
-                        Thạch Thất , Hà Nội, Việt Nam</a>
-                    </div>
-                  </li>
-                </ul>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">06.11.2024 - 23.02.2025</span>
+                  <br />
+                  Nhóm Facebook cộng đồng và Hộp Câu hỏi
+                </p>
               </div>
-            </div>
-          </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">18.11.2024 - 23.02.2025</span>
+                  <br />
+                  Chương trình AdvisorLink — Kết nối các đội với cố vấn
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">TBA</span>
+                  <br />
+                  Chương trình Open Training & Offline events
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">01.12.2024</span>
+                  <br />
+                  Sự kiện đấu giao hữu
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">25.12.2024</span>
+                  <br />
+                  Đóng đơn xin hỗ trợ tài chính
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">01.01.2025</span>
+                  <br />
+                  Đóng đơn đăng ký
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">03.01.2025</span>
+                  <br />
+                  Công bố thông tin chi tiết về giải đấu vòng loại
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">11.01.2025</span>
+                  <br />
+                  (Giải đấu vòng loại dự kiến ​​được tổ chức tại Thanh Hóa)
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">05.02.2025</span>
+                  <br />
+                  Công bố lịch chương trình của Giải vô địch
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">05.02.2025</span>
+                  <br />
+                  (Giải đấu vòng loại dự kiến ​​được tổ chức tại Hà Nội)
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">23.02.2025</span>
+                  <br />
+                  Sự kiện Vô địch Khu vực
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="footer-bar text-center">
-      <div class="container">
-        <div class="row">
-          <div class="footer-bar-content w-100 overflow-hidden">
-            <p class="text-size-16 mb-0">
-              Copyright ©2023 FPT Edu Experience Space All Rights Reserved
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
-  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
-  <script src="assets/js/animations.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/custom-script.js"></script>
-  <script src="assets/js/owl.carousel.js"></script>
+  <!-- Registration section -->
+  <section class="pt-5 pb-3" id="registration-section">
+    <div class="container mx-auto row">
+      <div class="col-12 col-lg-6 align-content-center">
+        <img class="img-fluid p-5" src="/assets/images/585x660-3.png" alt="">
+      </div>
+      <div class="col-12 col-lg-6 align-content-center">
+        <h1 class="fw-bold fs-1 mb-3 text-primary">
+          Quy trình đăng ký
+        </h1>
+        <ul>
+          <li>
+            <p class="fs-5">
+              <span class="fw-bold text-primary">BƯỚC 0: Tìm hiểu cách thành lập đội FIRST Tech Challenge <a class="fw-normal" href="https://www.firstinspires.org/robotics/ftc/start-a-team" target="_blank">(tại đây)</a></span>
+            </p>
+          </li>
+          <li>
+            <p class="fs-5">
+              <span class="fw-bold text-primary">BƯỚC 1: Đăng ký đội của bạn trên trang web FIRST Tech Challenge</span>
+              <br>
+              Đăng ký trên <a href="https://my.firstinspires.org/AccountManager/Account/Register">FIRST Dashboard</a> chính thức để nhận số đội chính thức, cố định của bạn
+              <br>
+              (Tiếng Việt) Hướng dẫn đăng kí đội thi: <a href="https://docs.google.com/document/d/1NEyoeexW45jbZ-wqfB8yIx8wjfYlWC0k4MZOMdXlHLQ/edit?usp=sharing>">Link</a>
+            </p>
+          </li>
+          <li>
+            <p class="fs-5">
+              <span class="fw-bold text-primary">BƯỚC 2: Đăng ký trên trang web FIRST Tech Challenge Việt Nam</span> 
+              <br/>
+              Phí đăng ký: 200 USD (5.000.000 VNĐ) cho tất cả các đội - Đơn xin hỗ trợ tài chính (Hạn chót: EOD 25/12/2024, UTC+7)
+              <br/>
+              <br/>
+              Thông tin chi tiết <a href="https://docs.google.com/document/d/1LH2hvxmTt6UgNR1JF20OHU1V3pIFta6qa07BxaEhkBk/edit?usp=sharing">tại đây</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact section -->
+  <script type="module" src="/components/contact.js"></script>
+  <ftcvn-contact></ftcvn-contact>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="assets/js/text-animations.js"></script>
+  <script type="text/javascript">
+    AOS.init({
+      duration: 800,
+    });
+  </script>
+  <script src="/scripts/script.js"></script>
 </body>
 
 </html>
