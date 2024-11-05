@@ -91,10 +91,10 @@ class Navbar extends LitElement {
                               <a href="#" class="text-white">FTC Community Facebook Group</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Team Registration Form</a>
+                              <a href="https://bit.ly/FTCVN2425_TeamRegistration" class="text-white">Team Registration Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Financial Aid Application Form</a>
+                              <a href="https://bit.ly/FTCVN2425_FinAid" class="text-white">Financial Aid Application Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
                               <a href="#" class="text-white">Advising Program Registration Form</a>
@@ -107,7 +107,7 @@ class Navbar extends LitElement {
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Volunteer Registration Form</a>
+                              <a href="https://bit.ly/FTCVN2425_Volunteer" class="text-white">Volunteer Registration Form</a>
                             </li>
                           </ul>
                         </div>
@@ -117,7 +117,7 @@ class Navbar extends LitElement {
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Partners Interest Form</a>
+                              <a href="https://bit.ly/FTCVN2425_Partner" class="text-white">Partners Interest Form</a>
                             </li>
                           </ul>
                         </div>
@@ -182,16 +182,16 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">FTC Community Facebook Group</a>
+                            <a href="/tbu/index.html" class="text-white">FTC Community Facebook Group</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Team Registration Form</a>
-                          </li>
+                              <a href="https://bit.ly/FTCVN2425_TeamRegistration" class="text-white">Team Registration Form</a>
+                            </li>
+                            <li class="li-arrow pb-1" style="color: white;">
+                              <a href="https://bit.ly/FTCVN2425_FinAid" class="text-white">Financial Aid Application Form</a>
+                            </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Financial Aid Application Form</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Advising Program Registration Form</a>
+                            <a href="/tbu/index.html" class="text-white">Advising Program Registration Form</a>
                           </li>
                         </ul>
                       </div>
@@ -201,7 +201,7 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Volunteer Registration Form</a>
+                            <a href="https://bit.ly/FTCVN2425_Volunteer" class="text-white">Volunteer Registration Form</a>
                           </li>
                         </ul>
                       </div>
@@ -211,7 +211,7 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Partners Interest Form</a>
+                            <a href="https://bit.ly/FTCVN2425_Partner" class="text-white">Partners Interest Form</a>
                           </li>
                         </ul>
                       </div>
