@@ -84,58 +84,40 @@ class Navbar extends LitElement {
                       <div class="row row-gap-3">
                         <div class="col-12 col-lg-4">
                           <h5 class="text-white">
-                            Về cuộc thi
+                            Dành cho đội thi: 
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://www.firstinspires.org/robotics/ftc" class="text-white">FIRST Tech Challenge</a>
+                              <a href="#" class="text-white">FTC Community Facebook Group</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="/2324/vorc.html" class="text-white">Vietnam Open Robotics Challenge (VORC)</a>
+                              <a href="#" class="text-white">Team Registration Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://ftc-docs.firstinspires.org/en/latest/index.html" class="text-white">Tổng hợp tài liệu FTC</a>
+                              <a href="#" class="text-white">Financial Aid Application Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="/2324/supportingPrograms.html" class="text-white">Supporting Programs</a>
+                              <a href="#" class="text-white">Advising Program Registration Form</a>
                             </li>
                           </ul>
                         </div>
                         <div class="col-12 col-lg-4">
                           <h5 class="text-white">
-                            Thông tin chung
+                            Dành cho cựu thí sinh và cộng đồng:
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="/2324/volunteer.html" class="text-white">Tình nguyện viên</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="/2324/resources.html" class="text-white">Mục lục Website</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://community.firstinspires.org/topic/ftc" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
+                              <a href="#" class="text-white">Volunteer Registration Form</a>
                             </li>
                           </ul>
                         </div>
                         <div class="col-12 col-lg-4">
                           <h5 class="text-white">
-                            Đường dẫn khác
+                            Dành cho các công ty và tổ chức:
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://www.gobilda.com/" class="text-white">goBilda</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://www.andymark.com/" class="text-white">AndyMark</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://www.servocity.com/" class="text-white">Servocity</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://www.pitsco.com/" class="text-white">PITSCO</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="https://www.chiefdelphi.com/" class="text-white">Chief Delphi</a>
+                              <a href="#" class="text-white">Partners Interest Form</a>
                             </li>
                           </ul>
                         </div>
@@ -196,58 +178,40 @@ class Navbar extends LitElement {
                     <div class="row row-gap-3">
                       <div class="col-12 col-lg-4">
                         <h5 class="text-white">
-                          Competitions
+                          For student teams:
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://www.firstinspires.org/robotics/ftc" class="text-white">FIRST Tech Challenge</a>
+                            <a href="#" class="text-white">FTC Community Facebook Group</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="/2324/vorc.html" class="text-white">Vietnam Open Robotics Challenge (VORC)</a>
+                            <a href="#" class="text-white">Team Registration Form</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://ftc-docs.firstinspires.org/en/latest/index.html" class="text-white">FTC Documents</a>
+                            <a href="#" class="text-white">Financial Aid Application Form</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="/2324/supportingPrograms.html" class="text-white">Supporting Programs</a>
+                            <a href="#" class="text-white">Advising Program Registration Form</a>
                           </li>
                         </ul>
                       </div>
                       <div class="col-12 col-lg-4">
                         <h5 class="text-white">
-                          Information
+                          For alumni and community members:
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="/2324/en/volunteer/index.html" class="text-white">Volunteer</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="/2324/resources.html" class="text-white">Table of content</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://community.firstinspires.org/topic/ftc" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
+                            <a href="#" class="text-white">Volunteer Registration Form</a>
                           </li>
                         </ul>
                       </div>
                       <div class="col-12 col-lg-4">
                         <h5 class="text-white">
-                          Other Resources
+                          For companies and organizations:
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://www.gobilda.com/" class="text-white">goBilda</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://www.andymark.com/" class="text-white">AndyMark</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://www.servocity.com/" class="text-white">Servocity</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://www.pitsco.com/" class="text-white">PITSCO</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="https://www.chiefdelphi.com/" class="text-white">Chief Delphi</a>
+                            <a href="#" class="text-white">Partners Interest Form</a>
                           </li>
                         </ul>
                       </div>
