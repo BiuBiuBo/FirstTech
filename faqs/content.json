@@ -1,0 +1,14 @@
+[
+  {
+    "question": "We're an international team whose region DOES NOT have a regional championship, how can we join FTC VN?",
+    "answer": "/faqs/1/content.md"
+  },
+  {
+    "question": "We're an international team whose region DOES have a regional championship, how can we join FTC VN?",
+    "answer": "/faqs/2/content.md"
+  },
+  {
+    "question": "Are sibling teams eligible to join FTC VN?",
+    "answer": "/faqs/3/content.md"
+  }
+]
