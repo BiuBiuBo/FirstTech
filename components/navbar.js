@@ -10,11 +10,11 @@ class Navbar extends LitElement {
 
   constructor() {
     super();
-    this.addEventListener('click', (event) => {
-      if (event.target.name === 'lang-switcher') {
-        this.switchWebLanguage();
-      }
-    });
+    // this.addEventListener('click', (event) => {
+    //   if (event.target.name === 'lang-switcher') {
+    //     this.switchWebLanguage();
+    //   }
+    // });
     this.lang = localStorage.getItem('lang') || navigator.language || navigator.userLanguage;
   }
 
@@ -88,16 +88,13 @@ class Navbar extends LitElement {
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="/tbu/index.html" class="text-white">FTC Community Facebook Group</a>
+                              <a href="https://www.facebook.com/groups/ftcvncommunity" class="text-white">FTC Community Facebook Group</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
                               <a href="https://bit.ly/FTCVN2425_TeamRegistration" class="text-white">Team Registration Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
                               <a href="https://bit.ly/FTCVN2425_FinAid" class="text-white">Financial Aid Application Form</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="/tbu/index.html" class="text-white">Advising Program Registration Form</a>
                             </li>
                           </ul>
                         </div>
@@ -190,9 +187,6 @@ class Navbar extends LitElement {
                             <li class="li-arrow pb-1" style="color: white;">
                               <a href="https://bit.ly/FTCVN2425_FinAid" class="text-white">Financial Aid Application Form</a>
                             </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="/tbu/index.html" class="text-white">Advising Program Registration Form</a>
-                          </li>
                         </ul>
                       </div>
                       <div class="col-12 col-lg-4">

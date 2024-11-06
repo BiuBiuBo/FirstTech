@@ -6,16 +6,16 @@ function isExceptedPath() {
   return excludedLocalePaths.some(path => window.location.href.includes(path));
 }
 
-function switchWebLanguege() {
-  console.log('Current language: ' + userLang);
-  if (userLang === 'en') {
-    localStorage.setItem('lang', 'vi');
-  } else {
-    localStorage.setItem('lang', 'en');
+  function switchWebLanguege() {
+    console.log('Current language: ' + userLang);
+    if (userLang === 'en') {
+      localStorage.setItem('lang', 'vi');
+    } else {
+      localStorage.setItem('lang', 'en');
+    }
+    console.log('Language changed to ' + localStorage.getItem('lang'));
+    window.location.href = '/'
   }
-  console.log('Language changed to ' + localStorage.getItem('lang'));
-  window.location.href = '/'
-}
 
 document.addEventListener('DOMContentLoaded', function() {
   window.onscroll = function() {
@@ -26,13 +26,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  if (localStorage.getItem('lang') === null) {
-    localStorage.setItem('lang', navigator.language || navigator.userLanguage);
+  // if (localStorage.getItem('lang') === null) {
+  //   localStorage.setItem('lang', navigator.language || navigator.userLanguage);
+  // }
+
+  if (localStorage.getItem('lang') !== 'en') {
+    localStorage.setItem('lang', 'en');
   }
 
   document.getElementById('language-selector').onclick = switchWebLanguege;
 
   if (userLang !== 'vi' && !window.location.href.includes('en') && !isExceptedPath()) {
+    console.log('Redirecting to English version');
     window.location.href = 'en';
   }
 });

@@ -42,7 +42,7 @@ class Contact extends LitElement {
               <h5 class="text-secondary fw-semibold">FTC VN</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="https://www.firstinspires.org/" class="nav-link p-0 text-white">Về FIRST</a></li>
-                <li class="nav-item mb-2"><a href="https://ftc.io.vn/" class="nav-link p-0 text-white">Về FTC Vietnam</a></li>
+                <li class="nav-item mb-2"><a href="/2324/index.html#event-recap" class="nav-link p-0 text-white">FTC Vietnam 23-24</a></li>
                 <li class="nav-item mb-2"><a href="/tbu/index.html" class="nav-link p-0 text-white">Luật chơi</a></li>
                 <li class="nav-item mb-2"><a href="/index.html#timeline-section" class="nav-link p-0 text-white">Lịch trình</a></li>
               </ul>
@@ -92,7 +92,7 @@ class Contact extends LitElement {
               <h5 class="text-secondary fw-semibold">FTC VN</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="https://www.firstinspires.org/" class="nav-link p-0 text-white">FIRST</a></li>
-                <li class="nav-item mb-2"><a href="https://ftc.io.vn/" class="nav-link p-0 text-white">FTC Vietnam</a></li>
+                <li class="nav-item mb-2"><a href="/2324/en/index.html#event-recap" class="nav-link p-0 text-white">FTC Vietnam 23-24</a></li>
                 <li class="nav-item mb-2"><a href="/tbu/index.html" class="nav-link p-0 text-white">Rules</a></li>
                 <li class="nav-item mb-2"><a href="/en/index.html#timeline" class="nav-link p-0 text-white">Timeline</a></li>
               </ul>
@@ -110,7 +110,7 @@ class Contact extends LitElement {
               <h5 class="text-secondary fw-semibold">Information</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="mailto:robotics@fe.edu.vn" class="nav-link p-0 text-white">Email: robotics@fe.edu.vn</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Phone: 0375156543 (Ms.Trang)</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Phone: +84 379 293 456 (Mr. Tung Nguyen)</a></li>
                 <li class="nav-item mb-2"><a href="https://maps.app.goo.gl/gGyVR9HWvJCBer5M8" class="nav-link p-0 text-white">Address: Hoa Lac Hi-tech Park, km 29, Đại lộ Thăng Long, Hà Nội, Vietnam</a></li>
               </ul>
             </div>
