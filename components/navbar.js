@@ -179,7 +179,7 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="/tbu/index.html" class="text-white">FTC Community Facebook Group</a>
+                            <a href="https://www.facebook.com/groups/ftcvncommunity" class="text-white">FTC Community Facebook Group</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
                               <a href="https://bit.ly/FTCVN2425_TeamRegistration" class="text-white">Team Registration Form</a>
