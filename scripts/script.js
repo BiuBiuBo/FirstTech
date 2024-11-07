@@ -8,11 +8,11 @@ function isExceptedPath() {
 
   function switchWebLanguege() {
     console.log('Current language: ' + userLang);
-    if (userLang === 'en') {
-      localStorage.setItem('lang', 'vi');
-    } else {
-      localStorage.setItem('lang', 'en');
-    }
+    // if (userLang === 'en') {
+    //   localStorage.setItem('lang', 'vi');
+    // } else {
+    //   localStorage.setItem('lang', 'en');
+    // }
     console.log('Language changed to ' + localStorage.getItem('lang'));
     window.location.href = '/'
   }
