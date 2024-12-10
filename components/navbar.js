@@ -69,6 +69,9 @@ class Navbar extends LitElement {
                   <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/aboutFirst.html">Về <span class="fw-bold fst-italic">FIRST®</span></a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/awardFirst.html">Giải thưởng</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/vorc-cantho.html">VORC 2024</a>
                 </li>
                 <li class="nav-item">
@@ -160,6 +163,9 @@ class Navbar extends LitElement {
               <li class="nav-item">
                 <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/en/aboutFirst">About <span class="fw-bold fst-italic">FIRST®</span></a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/en/award.html">Awards</a>
+                </li>
               <li class="nav-item">
                 <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/en/vorc-cantho">VORC 2024</a>
               </li>
