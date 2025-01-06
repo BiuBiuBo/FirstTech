@@ -60,7 +60,7 @@ class Contact extends LitElement {
               <h5 class="text-secondary fw-semibold">Thông tin</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="mailto:robotics@fe.edu.vn" class="nav-link p-0 text-white">Email: robotics@fe.edu.vn</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Phone: 0375156543 (Ms.Trang)</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Phone: 0375156543 (Ms. Trang Đỗ)</a></li>
                 <li class="nav-item mb-2"><a href="https://maps.app.goo.gl/gGyVR9HWvJCBer5M8" class="nav-link p-0 text-white">Address: Khu GD&ĐT, CNC Hòa Lạc, Km29, Đại lộ Thăng Long, Thạch Thất , Hà Nội, Việt Nam</a></li>
               </ul>
             </div>
@@ -110,7 +110,7 @@ class Contact extends LitElement {
               <h5 class="text-secondary fw-semibold">Information</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="mailto:robotics@fe.edu.vn" class="nav-link p-0 text-white">Email: robotics@fe.edu.vn</a></li>
-                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Phone: +84 379 293 456 (Mr. Tung Nguyen)</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white">Phone: +84 375 156 543 (Ms. Trang Đỗ)</a></li>
                 <li class="nav-item mb-2"><a href="https://maps.app.goo.gl/gGyVR9HWvJCBer5M8" class="nav-link p-0 text-white">Address: Hoa Lac Hi-tech Park, km 29, Đại lộ Thăng Long, Hà Nội, Vietnam</a></li>
               </ul>
             </div>
