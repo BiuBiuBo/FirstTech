@@ -82,11 +82,13 @@ class Contact extends LitElement {
       </svg>
       <section class="pt-5" style="background-color: #025aaa;">
         <div class="container">
-          <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-5 border-bottom">
+          <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-bottom">
             <div class="col mb-3">
               <a><img src="/assets/images/ftcvn-logo.png" alt="" class="img-fluid d-block mx-auto" style="max-height: 70px;"></a>
+              <a href="https://collect.vn/"><img src="/assets/images/CDA 2025 Logo (Black).png" alt"cda" class="img-fluid d-block mx-auto mt-3" style="max-height: 70px;"></a>
             </div>
             <div class="col mb-3">
+              <a href="https://fpt.com/en/business/education"><img src="/assets/images/fpt-logo.svg" alt"fpt" class="img-fluid d-block mx-auto rounded" style="max-height: 100px;"></a>
             </div>
             <div class="col mb-3">
               <h5 class="text-secondary fw-semibold">FTC VN</h5>
