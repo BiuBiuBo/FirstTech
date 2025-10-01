@@ -1,8 +1,11 @@
 :root {
-  --primary-color: #025aaa;   /* FIRST 2024 - 2025 Season Theme Color */
+  --primary-color: #e5ae32;   /* FIRST 2024 - 2025 Season Theme Color */
   --secondary-color: #ff8100; /* FIRST Tech Challenge Color */
-  --white-color: #ffffff;
-  --black-color: #000000;
+  --seasonal-theme-color: #92dbac; /* FIRST 2023 - 2024 Season Theme Color */
+  --seasonal-secondary-color: #ea572e;
+  --seasonal-tertiary-color: #598290;
+  --white-color: #FFFFFF;
+  --black-color: #231F20;
 }
 
 .bg-primary {
@@ -25,6 +28,25 @@
   color: var(--secondary-color) !important;
 }
 
+.text-seasonal-theme {
+  color: var(--seasonal-theme-color) !important;
+}
+
+.text-white {
+  color: var(--white-color) !important;
+}
+
+.text-black {
+  color: var(--black-color) !important;
+}
+
+.text-seasonal-secondary {
+    color: var(--seasonal-secondary-color) !important;
+}
+
+.text-seasonal-tertiary {
+    color: var(--seasonal-tertiary-color) !important;
+}
 
 .navbar-toggler {
   padding: 0;
@@ -75,13 +97,25 @@
 }
 
 .btn.btn-white, .btn.btn-white:hover, .btn.btn-white:focus {
-  background-color: white;
-  color: #004ab9;
-  border: 1px solid white;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--white-color);
+}
+
+.btn.btn-black, .btn.btn-black:hover, .btn.btn-black:focus {
+  background-color: var(--black-color);
+  color: var(--primary-color);
+  border: 1px solid var(--black-color);
 }
 
 .btn.btn-outline-white, .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
   background-color: transparent;
-  color: white;
-  border: 1px solid white;
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+}
+
+.btn.btn-outline-white, .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
+  background-color: transparent;
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
 }
