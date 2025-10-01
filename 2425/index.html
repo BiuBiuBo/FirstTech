@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIRST Tech Challenge Vietnam</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css" integrity="sha512-bZBu2H0+FGFz/stDN/L0k8J0G8qVsAL0ht1qg5kTwtAheiXwiRKyCq1frwfbSFSJN3jooR5kauE0YjtPzhZtJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/resass.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/FIRSTTech_IconVert_RGB.png">
+  <meta name="description" content=" FIRST Tech Challenge Việt Nam là giải đấu FTC chính thức lần đầu tiên được tổ chức tại Việt Nam theo bản quyền của FIRST tại Hoa Kỳ. FIRST Tech Challenge Việt Nam mong muốn tạo ra một sân chơi về công nghệ nhằm khuyến khích tinh thần học tập, sáng tạo, mối quan tâm về xã hội của học sinh Việt Nam, đồng thời truyền cảm hứng và thúc đẩy học sinh học tập, thực hành, ứng dụng các công nghệ mới, góp phần xây dựng nguồn lực chất lượng cao, đáp ứng nhu cầu của cuộc cách mạng công nghiệp 4.0.">
+</head>
+
+<body>
+
+  <!-- Navbar section -->
+  <script type="module" src="/components/navbar.js"></script>
+  <ftcvn-navbar></ftcvn-navbar>
+
+  <!--Screen heigh 2-Column Banner section -->
+  <section class="w-100 justify-content-center" style="min-height: 80vh; padding-top: 150px; background-color: #025aaa;">
+    <div class="container mx-auto h-100 d-flex">
+      <div class="row">
+        <div class="col-12 col-lg-6 align-content-center" data-aos="fade-up">
+          <h1 class="fw-bold fs-1 mb-3 text-white"><span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech Challenge Vietnam</h1>
+          <p class="fs-5 text-white">
+            Tham gia Facebook Group của <span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech Challenge Vietnam
+            <a class="text-decoration-none" style="color: #ff8100" href="https://www.facebook.com/groups/ftcvncommunity">
+              tại đây
+            </a>
+          </p>
+          <div class="d-flex flex-column flex-lg-row gap-3">
+            <a href="#registration-section" class="btn btn-white fw-bold p-3">Tham gia</a>
+            <a href="/2324/index.html" class="btn btn-outline-white fw-semibold p-3">FTC 23-24 Event Recap</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 align-content-center">
+          <img class="img-fluid p-5" src="/assets/images/hero-image.png" alt="">
+        </div>
+      </div>
+  </section>
+  <svg id="wave" style="transform:rotate(180deg); transition: 0.3s; margin-top: -2px;" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+        <stop stop-color="rgba(2, 90, 170, 1)" offset="0%"></stop>
+        <stop stop-color="rgba(2, 90, 170, 1)" offset="100%"></stop>
+      </linearGradient>
+    </defs>
+    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L24,10C48,20,96,40,144,45C192,50,240,40,288,36.7C336,33,384,37,432,38.3C480,40,528,40,576,43.3C624,47,672,53,720,51.7C768,50,816,40,864,45C912,50,960,70,1008,71.7C1056,73,1104,57,1152,45C1200,33,1248,27,1296,20C1344,13,1392,7,1440,10C1488,13,1536,27,1584,41.7C1632,57,1680,73,1728,70C1776,67,1824,43,1872,31.7C1920,20,1968,20,2016,23.3C2064,27,2112,33,2160,35C2208,37,2256,33,2304,38.3C2352,43,2400,57,2448,53.3C2496,50,2544,30,2592,18.3C2640,7,2688,3,2736,6.7C2784,10,2832,20,2880,20C2928,20,2976,10,3024,10C3072,10,3120,20,3168,26.7C3216,33,3264,37,3312,35C3360,33,3408,27,3432,23.3L3456,20L3456,100L3432,100C3408,100,3360,100,3312,100C3264,100,3216,100,3168,100C3120,100,3072,100,3024,100C2976,100,2928,100,2880,100C2832,100,2784,100,2736,100C2688,100,2640,100,2592,100C2544,100,2496,100,2448,100C2400,100,2352,100,2304,100C2256,100,2208,100,2160,100C2112,100,2064,100,2016,100C1968,100,1920,100,1872,100C1824,100,1776,100,1728,100C1680,100,1632,100,1584,100C1536,100,1488,100,1440,100C1392,100,1344,100,1296,100C1248,100,1200,100,1152,100C1104,100,1056,100,1008,100C960,100,912,100,864,100C816,100,768,100,720,100C672,100,624,100,576,100C528,100,480,100,432,100C384,100,336,100,288,100C240,100,192,100,144,100C96,100,48,100,24,100L0,100Z"></path>
+  </svg>
+
+  <!-- Content-image section -->
+  <section class="pt-5 pb-3 w-100">
+    <div class="container mx-auto">
+      <div class="row w-100 mx-auto">
+        <div class="col-12 col-lg-6 align-content-center">
+          <h1 class="fw-semibold fs-1 mb-3">
+            <span class="fw-bold" style="color: #025aaa;"><span class="fw-bolder fst-italic">FIRST®</span> Tech Challenge</span> là gì?
+          </h1>
+          <p class="fs-5">
+            <span class="fw-bold">FIRST Tech Challenge</span> không chỉ là chế tạo robot. Các đội FIRST Tech Challenge (mình đa 15 thành viên trong nhóm, từ lớp 7 đến lớp 12) được thử thách để thiết kế, chế tạo, lập trình và vận hành robot để cạnh tranh với hình thức đối đầu trực tiếp theo liên minh.
+            <br/>
+            <br/>
+            Dưới sự hướng dẫn của các huấn luyện viên và cố vấn, các bạn học sinh sẽ được phát triển kỹ năng STEM và vận dụng các nguyên lý kỹ thuật, đồng thời trải nghiệm thành quả của sự chăm chỉ, sáng tạo và tinh thần làm việc nhóm.
+            <br/>
+            <br/>
+            Bộ kit robot có thể tái sử dụng từ năm này sang năm khác và có thể được lập trình với nhiều cấp độ dựa trên Java. Các đội sẽ thiết kế và chế tạo robot, gây quỹ, thiết kế và truyền thông thương hiệu đội của mình đồng thời thực hiện các hoạt động cộng đồng để đạt được các giải thưởng đặc biệt. Các thí sinh tham gia cũng có thể tiếp cậncác học bổng đại học với tổng giá trị trên 80 triệu đô la Mỹ.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6 align-content-center">
+          <img class="img-fluid p-5" src="/assets/images/robot-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom section -->
+  <section class="pt-5 pb-3 w-100" style="background-color: #025aaa;">
+    <div class="container row mx-auto">
+      <div class="col-lg-5 col-12" style="max-height: 250px;">
+        <img src="https://www.firstinspires.org/sites/default/files/2024-banner/ftc_into_the_deep.gif" alt="" class="img-fluid d-block mx-auto" style="object-fit: contain; height: 100%;">
+      </div>
+      <div class="col-lg-7 col-12 mx-auto text-center text-lg-start mt-3 mt-lg-0">
+        <h4 class="text-white fs-4">Chủ đề mùa giải 2024-2025: INTO THE DEEP<sup>SM</sup></h4>
+        <p class="text-white fs-5">Tại mùa giải <span class="fw-semibold">INTO THE DEEP</span>, FIRST Tech Challenge sẽ vén màn sức mạnh của thiết kế, sáng tạo và sự chính xác để tạo ra vô vàn những trải nghiệm mới.</p>
+        <a class="btn bg-white p-3 text-primary fw-semibold">Khám phá chủ đề</a>
+      </div>
+      <div class="col-12 d-flex flex-wrap w-100 justify-content-around mt-4">
+        <span class="fs-5 fw-semibold text-white">#FTCViệtNam</span>
+        <span class="fs-5 fw-semibold text-white">#HơnCảRobot</span>
+        <span class="fs-5 fw-semibold text-white">#MoreThanRobots</span>
+        <span class="fs-5 fw-semibold text-white">#FIRSTTechChallenge</span>
+        <span class="fs-5 fw-semibold text-white">#IntoTheDeep</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content-image section -->
+  <section class="pt-5 pb-3 w-100" style="background: url(/assets/media/event-day.jpg) no-repeat; background-position: right 30%; min-height: 700px;">
+    <div class="container mx-auto">
+      <div class="row w-100 mx-auto">
+        <div class="col-12 col-lg-7 align-content-center bg-white pt-5 pb-3 px-3 rounded">
+          <h1 class="fw-semibold fs-1 mb-3">
+            Về <span class="fw-bold" style="color: #025aaa;"><span class="fw-bolder fst-italic">FIRST®</span> Tech Challenge Vietnam 2024 - 2025</span>
+          </h1>
+          <p class="fs-5">
+            <span class="fw-bold">FIRST Tech Challenge Vietnam (FTC VN)</span> là một giải vô địch khu vực được chứng nhận tại Việt Nam, nơi hai đội được trao Inspire Award và 1st Place Alliance Captain sẽ tiến mình đến FIRST World Championship.
+            <br/>
+            <br/>
+            <span class="fw-bold">Chúng mình cũng chào đón các đội quốc tế tham gia trong năm nay!</span> Đặc biệt là các quốc gia Đông Nam Á: Philippines, Myanmar, Malaysia, Campuchia, Lào, Singapore, Đông Timor, và Brunei Darussalam.
+          </p>
+          <h2 class="fs-2">Đối tượng tham dự giải đấu</h2>
+          <ul class="fs-5">
+            <li>Đội tân binh (mới)</li>
+            <li>Đội kỳ cựu (trở lại giải đấu từ FIRST Tech Challenge Vietnam 2023-2024)</li>
+            <li>Đội quốc tế, khu vực KHÔNG có giải vô địch khu vực.</li>
+          </ul>
+          <p class="fs-5">Đối với các đội quốc tế CÓ giải vô địch khu vực, xem thêm FAQs</p>
+        </div>
+        <div class="col-12 col-lg-5 align-content-center">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline section -->
+  <section class="pt-5 pb-3" id="timeline-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12">
+          <h1 class="fw-semibold fs-1 mb-3 text-center">
+            Các mốc thời gian <span style="font-weight: 900 !important; font-style: italic;">FIRST®</span> Tech Challenge Vietnam 2024-2025
+          </h1>
+          <ul class="timeline">
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">06.11.2024</span>
+                  <br />
+                  Mở đơn đăng ký, Nền tảng cộng đồng trực tuyến & Sự kiện khởi động FTC
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">Ngày thứ 3 tuần lễ đầu tiên và tuần lễ thứ ba của mỗi tháng</span>
+                  <br />
+                  Hỏi đáp cùng Ban tổ chức
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">06.11.2024 - 23.02.2025</span>
+                  <br />
+                  Nhóm Facebook cộng đồng và Hộp Câu hỏi
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">18.11.2024 - 23.02.2025</span>
+                  <br />
+                  Chương trình AdvisorLink — Kết nối các đội với cố vấn
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">TBA</span>
+                  <br />
+                  Chương trình Open Training & Offline events
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">01.12.2024</span>
+                  <br />
+                  Sự kiện đấu giao hữu
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">25.12.2024</span>
+                  <br />
+                  Đóng đơn xin hỗ trợ tài chính
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">01.01.2025</span>
+                  <br />
+                  Đóng đơn đăng ký
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">03.01.2025</span>
+                  <br />
+                  Công bố thông tin chi tiết về giải đấu vòng loại
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">11.01.2025</span>
+                  <br />
+                  (Giải đấu vòng loại dự kiến được tổ chức tại Thanh Hóa)
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">05.02.2025</span>
+                  <br />
+                  Công bố lịch chương trình của Giải vô địch
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">05.02.2025</span>
+                  <br />
+                  (Giải đấu vòng loại dự kiến được tổ chức tại Hà Nội)
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item rounded-5">
+              <div class="timeline-content">
+                <p class="mb-1 fs-5">
+                  <span class="fw-bold fs-4">23.02.2025</span>
+                  <br />
+                  Sự kiện Vô địch Khu vực
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <!-- Registration section -->
+  <section class="pt-5 pb-3" id="registration-section">
+    <div class="container mx-auto row">
+      <div class="col-12 col-lg-6 align-content-center">
+        <img class="img-fluid p-5" src="/assets/images/585x660-3.png" alt="">
+      </div>
+      <div class="col-12 col-lg-6 align-content-center">
+        <h1 class="fw-bold fs-1 mb-3 text-primary">
+          Quy trình đăng ký
+        </h1>
+        <ul>
+          <li>
+            <p class="fs-5">
+              <span class="fw-bold text-primary">BƯỚC 0: Tìm hiểu cách thành lập đội FIRST Tech Challenge <a class="fw-normal" href="https://www.firstinspires.org/robotics/ftc/start-a-team" target="_blank">(tại đây)</a></span>
+            </p>
+          </li>
+          <li>
+            <p class="fs-5">
+              <span class="fw-bold text-primary">BƯỚC 1: Đăng ký đội của bạn trên trang web FIRST Tech Challenge</span>
+              <br>
+              Đăng ký trên <a href="https://my.firstinspires.org/AccountManager/Account/Register">FIRST Dashboard</a> chính thức để nhận số đội chính thức, cố định của bạn
+              <br>
+              (Tiếng Việt) Hướng dẫn đăng kí đội thi: <a href="https://docs.google.com/document/d/1NEyoeexW45jbZ-wqfB8yIx8wjfYlWC0k4MZOMdXlHLQ/edit?usp=sharing>">Link</a>
+            </p>
+          </li>
+          <li>
+            <p class="fs-5">
+              <span class="fw-bold text-primary">BƯỚC 2: Đăng ký trên trang web FIRST Tech Challenge Việt Nam</span> 
+              Phí đăng ký: 200 USD (5.000.000 VNĐ) cho tất cả các đội - Đơn xin hỗ trợ tài chính (Hạn chót: EOD 25/12/2024, UTC+7)
+              <br/>
+              <br/>
+              Thông tin chi tiết <a href="https://docs.google.com/document/d/1LH2hvxmTt6UgNR1JF20OHU1V3pIFta6qa07BxaEhkBk/edit?usp=sharing">tại đây</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact section -->
+  <script type="module" src="/components/contact.js"></script>
+  <ftcvn-contact></ftcvn-contact>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript">
+    AOS.init({
+      duration: 800,
+    });
+  </script>
+  <script src="/scripts/script.js"></script>
+</body>
+
+</html>
