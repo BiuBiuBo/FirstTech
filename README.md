@@ -1,6 +1,6 @@
-﻿# FIRST Tech Challenge Vietnam Website (Official 2024 - 2025 season) 
+﻿# FIRST Tech Challenge Vietnam Website (Official 2025 - 2026 season) 
 
-This is the repository for the FIRST Tech Challenge Vietnam website for the 2024 - 2025 season. The website is currently hosted on Vercel.
+This is the repository for the FIRST Tech Challenge Vietnam website for the 2025 - 2026 season. The website is currently hosted on Vercel.
 
 ## Update Log
 
@@ -8,5 +8,6 @@ This is the repository for the FIRST Tech Challenge Vietnam website for the 2024
 |------------|---------|--------------------------------|
 | 2024-09-19 | 1.0.0   | Initial release                |
 | 2024-09-29 | 1.1.0   | Added English translation      |
-| 2024-10-01 | 1.1.1   | Added Language switcher        | (Current version)
-| 2024------ | 1.1.2   | Main-web Vietnamese translation|
+| 2024-10-01 | 1.1.1   | Added Language switcher        |
+| 2025-10-02 | 1.2.0   | Update season 25-26            | (Current version)
+
