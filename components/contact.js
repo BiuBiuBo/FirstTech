@@ -94,6 +94,7 @@ class Contact extends LitElement {
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="https://www.firstinspires.org/" class="nav-link p-0 text-white">FIRST</a></li>
                 <li class="nav-item mb-2"><a href="/2324/en/index.html#event-recap" class="nav-link p-0 text-white">FTC Vietnam 23-24</a></li>
+                <li class="nav-item mb-2"><a href="/2425/en/index.html" class="nav-link p-0 text-white">FTC Vietnam 24-25</a></li>
                 <li class="nav-item mb-2"><a href="/tbu/index.html" class="nav-link p-0 text-white">Rules</a></li>
                 <li class="nav-item mb-2"><a href="/en/index.html#timeline" class="nav-link p-0 text-white">Timeline</a></li>
               </ul>
@@ -116,7 +117,7 @@ class Contact extends LitElement {
               </ul>
             </div>
           </footer>
-          <p class="text-center text-white m-0 py-3">Copyright ©2024 FPT Edu Experience Space All Rights Reserved</p>
+          <p class="text-center text-white m-0 py-3">Copyright ©2025 FPT Edu Experience Space All Rights Reserved</p>
         </div>
       </section>`;
     }
