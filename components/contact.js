@@ -88,6 +88,7 @@ class Contact extends LitElement {
             </div>
             <div class="col mb-3">
               <a href="https://fpt.com/en/business/education"><img src="/assets/images/fpt-logo.svg" alt"fpt" class="img-fluid d-block mx-auto rounded" style="max-height: 100px;"></a>
+              <a href="https://www.qualcomm.com/"><img src="/assets/images/qualcomm-footer-logo.png" alt"fpt" class="img-fluid d-block mx-auto rounded" style="max-height: 100px;"></a>
             </div>
             <div class="col mb-3">
               <h5 class="text-secondary fw-semibold">FTC VN</h5>
